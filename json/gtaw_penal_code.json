@@ -3223,11 +3223,11 @@
     "303": {
         "id": "303",
         "charge": "Крупная кража",
-        "definition": " ",
+        "definition": "Любое лицо (а), которое украдет, заберет, унесет, увезет или увезет личное имущество другого человека или организации на сумму 5501 долларов или более. Этот закон также включает преднамеренную неуплату за оказанные услуги на сумму 5501 долларов США или более.",
         "type": "F",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
@@ -3236,19 +3236,19 @@
             "3": false
         },
         "time": {
-            "days": 4,
+            "days": 2,
             "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 8,
+            "days": 4,
             "hours": 0,
             "min": 0
         },
         "points": {
             "A": 0,
             "B": 0,
-            "C": 4
+            "C": 0
         },
         "fine": {
             "1": 0,
@@ -3266,8 +3266,8 @@
             "3": 0
         },
         "bail": {
-            "auto": 2,
-            "cost": 450000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
@@ -3324,12 +3324,12 @@
     },
     "305": {
         "id": "305",
-        "charge": "Petty Theft",
-        "definition": "Any person who steals, takes, carries, leads, or drives away the personal property of another individual or organization in value of $5,500 or less. This charge also includes petty theft of services, which is the intentional failure to pay for rendered services valued at $5,500 or less.",
-        "type": "M",
+        "charge": "Угон и кража автомобиля",
+        "definition": "a) Любое лицо, которое незаконно завладевает транспортным средством другого лица без его согласия, совершая это во время непосредственного присутствия водителя или пассажира, является виновным в угоне автомобиля.\nb) Любое лицо, которое незаконно завладевает транспортным средством другого лица, совершая это без разрешения владельца и вне непосредственного присутствия водителя или пассажира, является виновным в краже автомобиля.",
+        "type": "F",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
@@ -3338,8 +3338,8 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 2,
+            "days": 1,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
@@ -3368,8 +3368,8 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 25000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
@@ -3419,16 +3419,16 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 300000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "307": {
         "id": "307",
-        "charge": "Grand Theft Of A Firearm",
-        "definition": "Any person(s) who commits theft of any registered firearm, no matter the value.",
-        "type": "F",
+        "charge": "Владение орудиями взлома",
+        "definition": "Любое лицо (лица), имеющее при себе отмычку, лом, отвертку, плоскогубцы для тисков, плоскогубцы для водяных насосов, тонкий зажим, натяжную планку, пистолет-отмычку, трубчатую отмычку, отбойный ключ, съемник дверей, или другой инструмент с намерением взломать замок без надлежащего лицензирования.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -3440,12 +3440,12 @@
             "3": false
         },
         "time": {
-            "days": 2,
-            "hours": 0,
+            "days": 0,
+            "hours": 2,
             "min": 0
         },
         "maxtime": {
-            "days": 5,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3470,66 +3470,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 400000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "308": {
         "id": "308",
-        "charge": "Possession of Burglary Tools",
-        "definition": "Any person having upon him or her in his or her possession a picklock, crow, key bit, crowbar, screwdriver, tension bar, lock pick gun, master key, or other instrument or tool with intent to breach a lock without possession of proper licensing.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 1,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 50000
-        },
-        "extra": "N/A"
-    },
-    "309": {
-        "id": "309",
-        "charge": "Receiving Stolen Property",
-        "definition": "Any person who buys or receives any property that has been stolen or that has been obtained in any manner that constitutes theft or extortion with knowledge of status.",
+        "charge": "Приобретение украденного имущества",
+        "definition": "Любое лицо, которое умышленно покупает или получает любое имущество, зная о том, что это имущество было украдено или получено любым способом, представляющим собой кражу или вымогательство.",
         "type": "M",
         "class": {
             "A": false,
@@ -3547,7 +3496,7 @@
             "min": 0
         },
         "maxtime": {
-            "days": 2,
+            "days": 5,
             "hours": 0,
             "min": 0
         },
@@ -3572,15 +3521,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 100000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
-    "310": {
-        "id": "310",
-        "charge": "Trespassing",
-        "definition": "Any person who enters another's property with the intent to interfere with or obstruct the business activities conducted thereon, or enters and occupies another's property without permission, or refuses to leave private property after being asked by an owner, manager, resident, or employee.\n\nEvery person who, without the permission of the warden or other officer in charge of any State prison, remains inside a designated prison restricted zone as laid out by the Department of Corrections and Rehabilitation Authorization Act of 2023, after having been given instruction to leave by officers of the law, for the purpose of protecting the prison and keeping the prisoners inside.",
+    "309": {
+        "id": "309",
+        "charge": "Незаконное проникновение",
+        "definition": "Любое лицо (лица), которое проникает в чужую собственность с намерением помешать или воспрепятствовать хозяйственной деятельности, проводимой на ней, или проникает в чужую собственность и занимает ее без разрешения, или отказывается покинуть частную собственность по просьбе владельца, менеджера, резидента или работника.",
         "type": "M",
         "class": {
             "A": false,
@@ -3598,8 +3547,8 @@
             "min": 0
         },
         "maxtime": {
-            "days": 2,
-            "hours": 0,
+            "days": 0,
+            "hours": 4,
             "min": 0
         },
         "points": {
@@ -3623,15 +3572,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 100000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
-    "311": {
-        "id": "311",
-        "charge": "Vandalism",
-        "definition": "Any person who defaces, damages, or destroys property not his or her own. Does not extend to burning. Does not extend to any institution property mentioned in clause 314 of this Title.",
+    "310": {
+        "id": "310",
+        "charge": "Вандализм",
+        "definition": "Любое лицо, которое намеренно наносит любой ущерб в отношении любого имущества, не принадлежащего ему: наносит граффити, рисунки или другими способами портит, повреждает или уничтожает собственность, не принадлежащую ему. Обвинение не включает в себя поджог.",
         "type": "M",
         "class": {
             "A": false,
@@ -3674,15 +3623,423 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 100000
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "311": {
+        "id": "311",
+        "charge": "Вторжение в собственность",
+        "definition": "Любое лицо (лица), которое (-ые) проникает (-ют)  в любой объект, находящийся  в государственной или  частной собственности, с намерением завладеть предметами незаконным путем, при условии нахождения внутри людей.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 2,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "401": {
         "id": "401",
-        "charge": "Driving Without a Valid License",
-        "definition": "Any person(s) operating a motor vehicle under an expired licensed, or operating a motor vehicle without a license in any capacity. Extends to persons under the age of 16 operating any motor vehicle.",
+        "charge": "Вождение с приостановленной / отозванной лицензии",
+        "definition": "Любое лицо, управляющее транспортным средством в любое время, когда права на управление транспортным средством приостановлены или отозваны (аннулированы).\n\nПримечание:\n(a) Когда используется в отношении водительских прав, /приостановление/ означает, что привилегия лица на управление транспортным средством временно отменена на какой-либо срок.\n(b) Когда используется в отношении водительских прав, /отзыв/  или /аннулирование/ означает, что действие привилегии данного лица на управление транспортным средством прекращается, и новые водительские права могут быть получены после периода отзыва (аннулирования).",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 5000,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "402": {
+        "id": "402",
+        "charge": "Покидание места аварии",
+        "definition": "Любое лицо, которое, управляя транспортным средством, сталкивается с пешеходом или транспортным средством, а затем уезжает с намерением избежать последствий.\n\nПримечание:  поскольку это обвинение может рассматриваться как проступок или уголовное преступление, класс C должен применяться к любому инциденту, в котором произошел только материальный ущерб, таким образом, будет предъявлено обвинение как проступок, в то время как класс A или B применяется, когда произошли травмы, и человек должен быть обвиненным в тяжком преступлении. ",
+        "type": "F",
+        "class": {
+            "A": true,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 2,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "403": {
+        "id": "403",
+        "charge": "Опасное управление внедорожным или морским транспортным средством",
+        "definition": "Любое лицо (лица), участвующее в безрассудном или неосторожном использовании не самолётного или уличного легального транспортного средства с намерением или без намерения, но с целью создания беды или возможности причинить вред.\n\nПримечание:\nДля целей статьи 403 термин /внедорожное/ транспортное средство означает любое транспортное средство, непредназначенное для использование на дороге общего пользования.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": true,
+            "3": true
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2500,
+            "2": 5000,
+            "3": 15000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "404": {
+        "id": "404",
+        "charge": "Превышение скорости",
+        "definition": "В любое время суток - на официальных дорогах штата, округа или города - водители должны поддерживать максимальную скорость согласно классификации:\n\n100 миль в час - на любых магистралях.\n60 миль в час - на улицах, авеню, проспектах, аллеях и других дорогах, которые находятся в черте города, кроме магистралей.\n75 миль в час - на дорогах, что проходят вне каких-либо населённых пунктов.\n45 миль в час - в зонах, обозначенных как «Государственный парк» или «Зона охоты».\n\nВодители должны проявлять бдительность и снижать скорость при движении по дорогам с измененными условиями (например, по закрытым, грунтовым, скользким или поврежденным дорогам или в условиях плохой видимости).",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": true,
+            "3": true
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2500,
+            "2": 5000,
+            "3": 7500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "405": {
+        "id": "405",
+        "charge": "Не остановка перед средствами контроля движения",
+        "definition": "Транспортное средство, которое не следует за устройствами управления движением, такими как:\n\nНеобходимо уступать транспортному средству экстренных служб, если это транспортное средство использует: (1) сирены; и, (2) по крайней мере, один видимый красный маячок;\nНельзя пересекать двойную желтую линию, если вы не въезжаете на стоянку или подъездную дорожку или выезжая с них;\nНельзя игнорировать требования дорожных знаков (водители должны останавливаться на перекрестках со знаками /Стоп/ и уступать дорогу транспортным средствам, уже находящимся на перекрестке, а также водители, въезжающие на перекресток, регулируемый знаком /Уступи дорогу/, должны уступать дорогу другим водителям, уже находящимся на перекрестке), дорожных заграждений, сигналов рукой или другого оборудования, используемого правоохранительными органами для направления движения.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": true,
+            "3": true
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 2500,
+            "3": 5000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "406": {
+        "id": "406",
+        "charge": "Незаконная парковка и стоянка",
+        "definition": "(a) Парковкой является длительная остановка транспортного средства, которая превышает 10 минут, не смотря на наличие или отсутствие пассажиров внутри транспортного средства. Любой припаркованное транспортное средство нарушает требования, если припаркован:\n\nТам, где установлен(ы) знак(и) /STAFF ONLY/ , /EMERGENCY ONLY/ , /NO PARKING/, /PARKING TIME/ (в неразрешенные часы).\nВ пределах перекрестка;\nРядом с красным бордюром;\nНа тротуаре или когда кузов транспортного средства выступает над частью тротуара;\nВ туннеле или на мосту, за исключением случаев, когда это разрешено знаками;\nНа полосе встречного движения;\nМежду зоной безопасности и бордюром;\nВ пределах 15 футов (5 метров) от подъездной дороги пожарной части;\nНа обозначенном или необозначенном пешеходном переходе;\nВ пределах 15 футов (5 метров) от пожарного гидранта.\nВ пределах 7,5 футов (2,5 метров) от железнодорожного полотна или на нем;\nМетодом /двойной парковки/ - парковка на улице, когда все законные парковочные места у обочины заняты.\nТаким образом, что препятствует нормальному движению транспорта в полосе.\nТаким образом, что препятствует подъезду к частной или общественной собственности;\nТаким образом, что загораживает переулок, используемый для движения транспорта, и предотвращать въезд и / или выезд с переулка;\nТаким образом, что затрудняет парковку и не позволяет транспортным средствам выезжать на нее или въезжать на нее;\nНа автомагистрали, за исключением: если требует офицер полиции, чрезвычайной ситуации, когда это разрешено знаком.\nНа вертолетной площадке или в зоне посадки самолета или рядом с ней.\nНа парковочном месте для инвалидов, если лицо не является инвалидом и не имеет при себе табличку или номерные знаки для инвалидов;\nВ пределах 1 метра от пандуса тротуара для инвалидов или перед бордюром, обеспечивающим доступ инвалидной коляски к тротуару, или на нем.\n\nСтоит отличать длительную парковку транспортного средства от временной остановки.\n\n(b) Остановкой является преднамеренное (либо же вынужденное) прекращение движения транспортного средства, не более чем на 10 минут, с целью посадки / высадки пассажиров, либо же загрузки / выгрузки транспортного средства. Остановка разрешена в следующих случаях:\nВ случае экстренной остановки (медицинского или технического характера);\nДля посадки и высадки пассажиров, если вся ситуация не будет превышать 10 минут;\nДля загрузки и выгрузки транспортного средства, если водитель или любой другой пассажир находятся в непосредственной близости к транспортному средству, а само транспортное средства стоит с не заглушенным двигателем;\nЛюбые другие ситуации, не описанные выше, если они имеют статус экстренных и срочных.\n\nОстановка может проводиться в местах, где запрещена парковка согласно пункту (a), но в этом случае транспортное средство своей остановкой не должно препятствовать окружающему потоку транспортных средств и пешеходам.\n\nПримечание: поскольку владелец собственности несет ответственность за содержание объекта и прилегающей территории, владелец недвижимости по своему усмотрению определяет правила парковки для тротуаров и земли вокруг своего объекта, если это не нарушает никаких правил политики выше. Государственная собственность должна следовать этим руководящим принципам, если Законодательное собрание штата не укажет иное. Государственные агентства (такие как LSPD) несут ответственность за правила парковки объектов, которыми они управляют.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": true,
+            "3": true
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 2000,
+            "3": 4000
+        },
+        "impound": {
+            "1": 1,
+            "2": 2,
+            "3": 5
+        },
+        "suspension": {
+            "1": 3,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "407": {
+        "id": "407",
+        "charge": "Опасное вождение",
+        "definition": "Любое лицо, управляющее транспортным средством с умышленным пренебрежением безопасностью людей или имущества, создавая предсказуемый риск повреждения имущества или причинения легких телесных повреждений, но не приводящее к серьезным телесным повреждениям или смерти.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 9000
+        },
+        "impound": {
+            "1": 3,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 3,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "Приостановлением лицензии до 7 дней. "
+    },
+    "408": {
+        "id": "408",
+        "charge": "Превышение автомобильного шума",
+        "definition": "Любое лицо, управляющее транспортным средством, которое издает громкий шум из-за использования акустической системы, модификаций или иным образом, что беспокоит других людей в общественном месте.",
         "type": "M",
         "class": {
             "A": false,
@@ -3710,12 +4067,12 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
+            "1": 1500,
             "2": 0,
             "3": 0
         },
         "impound": {
-            "1": 1,
+            "1": 0,
             "2": 0,
             "3": 0
         },
@@ -3725,426 +4082,16 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 60000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
-    },
-    "402": {
-        "id": "402",
-        "charge": "Driving On A Suspended License",
-        "definition": "Any person(s) operating a motor vehicle at any time when that person's driving privilege is suspended or revoked.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 45
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 5000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 2,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 100000
-        },
-        "extra": "N/A"
-    },
-    "403": {
-        "id": "403",
-        "charge": "Failure to Produce Driver's License",
-        "definition": "Any person who fails to produce a valid driver’s license upon lawful request by a peace officer while operating a motor vehicle on a public roadway.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 50000
-        },
-        "extra": "N/A"
-    },
-    "404": {
-        "id": "404",
-        "charge": "Failure to Produce Vehicle Registration",
-        "definition": "Any person who fails to provide valid proof of vehicle registration upon lawful request by a peace officer while operating or in control of a motor vehicle on a public roadway.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 50000
-        },
-        "extra": "N/A"
-    },
-    "405": {
-        "id": "405",
-        "charge": "Failure to Produce Proof of Insurance",
-        "definition": "Any person who fails to provide valid proof of motor vehicle insurance upon lawful request by a peace officer while operating or in control of a motor vehicle on a public roadway.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 50000
-        },
-        "extra": "N/A"
-    },
-    "406": {
-        "id": "406",
-        "charge": "Unregistered Vehicle",
-        "definition": "Any person who\n(a) drives or operate any motor vehicle or trailer upon a roadway that is unregistered or does not display a valid identification plate; or\n\n(b) leaves standing upon a roadway any motor vehicle or trailer that is unregistered or does not display a valid identification plate.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 5000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 1,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 3,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 100000
-        },
-        "extra": "For driving or operating. If vehicle left standing: fine and impound only."
-    },
-    "407": {
-        "id": "407",
-        "charge": "No Insurance",
-        "definition": "A person commits the offense if they:\n(a) drive or operate any motor vehicle or trailer upon a roadway that is uninsured; or\n\n(b) leave standing upon a roadway any motor vehicle or trailer that is uninsured.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 5000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 1,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 3,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 100000
-        },
-        "extra": "For driving or operating. If vehicle left standing: fine and impound only."
-    },
-    "408": {
-        "id": "408",
-        "charge": "Hit and Run",
-        "definition": "a) Any person who whilst operating a motor vehicle is involved in an accident resulting only in damage to property or other vehicles, and fails to immediately stop the vehicle at the scene and remain until the necessary information is exchanged or a law enforcement investigation is concluded. (M)\n\nb) Any person who while operating a motor vehicle is involved in an accident resulting in injury or death to a person and fails to immediately stop the vehicle at the scene and remain until the necessary information is exchanged or a law enforcement investigation is concluded. (F)",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 200000
-        },
-        "extra": "Misdemeanor version for property damage only. Use 408F for injuries/deaths.",
-        "code_enhancement": "STREETS"
-    },
-    "408F": {
-        "id": "408F",
-        "charge": "Hit and Run (Felony)",
-        "definition": "a) Any person who whilst operating a motor vehicle is involved in an accident resulting only in damage to property or other vehicles, and fails to immediately stop the vehicle at the scene and remain until the necessary information is exchanged or a law enforcement investigation is concluded. (M)\n\nb) Any person who while operating a motor vehicle is involved in an accident resulting in injury or death to a person and fails to immediately stop the vehicle at the scene and remain until the necessary information is exchanged or a law enforcement investigation is concluded. (F)",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 12,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 4,
-            "B": 3,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 400000
-        },
-        "extra": "Felony version for accidents involving injury or death.",
-        "code_enhancement": "STREETS"
     },
     "409": {
         "id": "409",
-        "charge": "Reckless Operation Of an Off-Road or Naval Vehicle",
-        "definition": "Any person engaging in reckless or careless usage of a non-aerial or street-legal vehicle with or without intent but the creation of distress or the opportunity to cause harm. This can include ATVs, golf carts, boats & naval vehicles, or other equipment not driven on roads.",
-        "type": "M",
+        "charge": "Небрежная эксплуатация транспортного средства",
+        "definition": "Любое лицо, управляющее транспортным средством с безрассудным отношением к безопасности людей или имущества.\n\nСписок нарушений, подходящих под эту статью включает, но не ограничивается:\n\nНаписание текстовых сообщений во время вождения, разговор по телефону с использованием рук;\nНесоблюдение полосы движения, движение между полосами, небрежное перестроение;\nВождение медленнее основного потока не с правой стороны проезжей части;\nНесоблюдение разумной дистанции;\nВнезапная остановка без подачи какого-либо сигнала (стоп-сигналов транспортного средства, сигнала рукой и др. возможных);\nНеправильное размещение пассажиров в транспортном средстве (водитель позволяет пассажиру во время движения быть в местах, не предназначенных для пассажиров, ехать в багажнике транспортного средства);\n",
+        "type": "I",
         "class": {
             "A": false,
             "B": false,
@@ -4173,28 +4120,70 @@
         "fine": {
             "1": 2500,
             "2": 5000,
-            "3": 15000
+            "3": 7500
         },
         "impound": {
             "1": 0,
-            "2": 0,
-            "3": 7
+            "2": 2,
+            "3": 4
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 4
         },
         "bail": {
-            "auto": true,
-            "cost": 80000
+            "auto": false,
+            "cost": 0
         },
-        "extra": "Sentencing Enhancements are allowed for this charge."
+        "extra": "N/A"
     },
     "410": {
         "id": "410",
-        "charge": "Speeding",
-        "definition": "Any person who drives a vehicle whilst exceeding the maximum speed limit by 1–29 MPH, based on the type of area:\n\n(a) 100 MPH on highways;\n(b) 75 MPH on county roads;\n(c) 60 MPH within county residential limits, or city limits (excluding highways);\n(d) 45 MPH within state parks, hunting zones, school or university zones.\n\nViolations recorded by automated speed enforcement systems shall be penalized by a fixed fine and must not contribute to the escalation of penalties associated with repeat speeding infractions issued by a peace officer.\n\n\"City limits\" shall be defined as the legal boundary encompassing the city of Los Santos, including all public roadways and streets within that boundary designated for vehicle traffic, excluding highways.\n\"County residential limits\" shall be defined as the legal boundaries encompassing rural townships, including all roadways designated for vehicle traffic within those boundaries, excluding highways and county roads.",
+        "charge": "Незаконное использование гидравлики",
+        "definition": "Любое лицо, управляющее транспортным средством с гидравлическим оборудованием, установленным на шасси или другом компоненте транспортного средства без законной потребности в оборудовании или цели (например, вилочный погрузчик), не может использовать такое гидравлику на дороге штата, округа или города. ",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2500,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "extra": "N/A"
+    },
+    "411": {
+        "id": "411",
+        "charge": "Тонированные окна",
+        "definition": "(a) Любое лицо, управляющее транспортным средством с установленной незаконной тонировкой виновно в нарушении.\n\n(b) Любое лицо, которое управляет транспортным средством и разместило или размещает на лобовом, боковых или задних стеклах материалы, наклейки или предметы, мешающие обзору водителя, виновно в нарушении.\n\nПримечание:\n(а) Тонировка считается незаконной, если верно что-либо из этого:\nв случае, если тонировка установлена на лобовое или передние боковые стекла и при этом пропускает пропускает менее 70% света;\nв случае, если отражательная способность стекла с тонировкой выше, чем у стандартного стекла без тонировки;\nв случае, если оттенок тонировки красного, синего (голубого) или янтарного цветов;\nв случае, если заднее стекло затонировано, а у автомобиля отсутствуют два исправных боковых зеркала заднего вида.\n\nОбвинение по этой статье не применяется к следующим транспортным средствам:\nТранспортные средства, принадлежащие любым государственным или муниципальным правоохранительным органам, если это необходимо для эффективного выполнения ими своих обязанностей;\nТранспортные средства, принадлежащие государственным или муниципальным органам власти;\nЛичные транспортные средства, принадлежащие сотрудникам штата Сан-Андреас, занимающим должность директора или заместителя директора государственных департаментов, для их собственной безопасности и охраны;\nЛичные автомобили, принадлежащие мэру любого муниципалитета штата Сан-Андреас, для их собственной безопасности и сохранности;\nЛичные автомобили, принадлежащие и управляемые любым магистратом или судьей, как определено Законом о судебной системе штата.\n\n(c) Помимо случаев перечисленных в пункте (b), обвинение по этой статье также не применяется к следующим лицам:\nЛица, с диагнозом, поставленным сертифицированным медицинским работником, включая, но не ограничиваясь; альбинизм, хронический актинический дерматит/актинический ретикулоид, дерматомиозит, красная волчанка, порфирия, ксеродермия (пигментоза) pigmentosum, тяжелая лекарственная светочувствительность, при условии, что курс лечения, вызвавший светочувствительность, ожидается длительным, фотофобия, связанная с офтальмологическим или неврологическим расстройством, или любое другое состояние или расстройство, вызывающее сильную светочувствительность, при котором человек должен быть защищен от солнечных лучей по медицинским показаниям.\nЛица, находящиеся под серьезной угрозой, при условии, что они предоставили обоснованные доводы, из которых любой разумный человек может удостовериться о правдивости угрозы, и получили разрешение правоохранительного ведомства штата на использование тонировки. Такое разрешение должно иметь конкретный период действия, не может быть бессрочным, и должно быть зафиксировано в базе данных полиции MDC.\n\n(d) Пункт (d) позволяет освободить от ответственности по этой статье транспортные средства следующих видов предприятий, будь то частный или государственный сектор:\nЛюбое сертифицированное охранное агентство, обязанное по контракту перевозить и охранять клиентов;\nЛюбые государственные, муниципальные или частные транспортные службы, осуществляющие перевозку и транспортировку лиц с особыми потребностями.",
         "type": "I",
         "class": {
             "A": false,
@@ -4217,75 +4206,25 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
-            "2": 5000,
-            "3": 8000
+            "1": 3000,
+            "2": 7000,
+            "3": 0
         },
         "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 2
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 3
-        },
-        "extra": "For speeds 1-29 MPH over limit"
-    },
-    "411": {
-        "id": "411",
-        "charge": "Excessive Speeding",
-        "definition": "Any person who drives a vehicle whilst exceeding the maximum speed limit by 30 MPH or more, based on the type of area outlined in 405. Speeding.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": true,
-            "3": true,
-            "4": true,
-            "5": true
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 8000,
-            "2": 8000,
-            "3": 12000,
-            "4": 15000,
-            "5": 20000
-        },
-        "impound": {
-            "1": 0,
+            "1": 1,
             "2": 1,
-            "3": 3,
-            "4": 7,
-            "5": 10
+            "3": 3
         },
         "suspension": {
             "1": 0,
             "2": 2,
-            "3": 4,
-            "4": 7,
-            "5": 10
+            "3": 4
         },
-        "extra": "For speeds 30+ MPH over limit. Separate offense from Speeding."
+        "extra": "Примечание: владелец автомобиля, получивший штраф, обязан узаконить тонировку в течении следующих 24 часов."
     },
     "412": {
         "id": "412",
-        "charge": "Failure to Yield/Stop to a Traffic Control Device",
+        "charge": "Вождение под воздействием алкоголя или наркотиков [DUI]",
         "definition": "Any person who does not comply with traffic control devices or instructions from authorized personnel, including but not limited to:\n(a) stop signs, yield signs, and other regulatory signage;\n(b) cones, barriers, flashing lights, or other temporary traffic control measures indicating roadwork, lane closures, or hazards; or\n(c) instructions from law enforcement officers, construction flaggers, or other authorized personnel directing traffic.",
         "type": "I",
         "class": {
