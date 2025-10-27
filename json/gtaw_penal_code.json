@@ -2462,12 +2462,12 @@
     },
     "219": {
         "id": "219",
-        "charge": "Sexual Battery",
-        "definition": "Any person who who touched an intimate part of another person against the will of that person for the purpose of sexual arousal, sexual gratification, or sexual abuse.",
+        "charge": "Изнасилование",
+        "definition": "Любое лицо (а), вступившее в половой акт без согласия одной или нескольких сторон.",
         "type": "F",
         "class": {
-            "A": false,
-            "B": true,
+            "A": true,
+            "B": false,
             "C": false
         },
         "offence": {
@@ -2476,12 +2476,12 @@
             "3": false
         },
         "time": {
-            "days": 3,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 8,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -2509,7 +2509,7 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "N/A"
+        "extra": "Это будет передано в суд по обязательному требованию."
     },
     "220": {
         "id": "220",
@@ -2564,13 +2564,13 @@
     },
     "221": {
         "id": "221",
-        "charge": "Domestic Violence",
-        "definition": "Any person(s) who commits an act of battery, assault, assault with a deadly weapon, sexual battery, rape, torture, stalking, or any degree of murder against an intimate partner or family member as defined by statute.",
+        "charge": "Сексуальное насилие",
+        "definition": "Любое лицо (а), которое оскорбляет человека в устной форме с целью сексуального возбуждения, удовлетворения или насилия.",
         "type": "M",
         "class": {
             "A": false,
-            "B": false,
-            "C": true
+            "B": true,
+            "C": false
         },
         "offence": {
             "1": true,
@@ -2578,12 +2578,12 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 6,
+            "days": 1,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 2,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -2608,8 +2608,8 @@
             "3": 0
         },
         "bail": {
-            "auto": 2,
-            "cost": 120000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
@@ -2768,7 +2768,7 @@
     },
     "223": {
         "id": "223",
-        "charge": "Слежка / сталкинг",
+        "charge": "Растление несовершеннолетних",
         "definition": "Любое лицо, вступившее в половой акт по обоюдному согласию с лицом или проявляющее сексуальное влечение к лицам, не достигших 18 лет или использующее компьютер или средства двухсторонней связи с целью совращения.",
         "type": "F",
         "class": {
@@ -2970,11 +2970,11 @@
         },
         "extra": "N/A"
     },
-    "222": {
-        "id": "222",
-        "charge": "Слежка / сталкинг",
-        "definition": "Любое лицо, которое незаконно, умышленно, злонамеренно и неоднократно преследует или умышленно и злонамеренно преследует другое лицо с намерением вызвать у этого человека разумный страх за его или ее безопасность или безопасность его или ее ближайших родственников.",
-        "type": "F",
+    "227": {
+        "id": "227",
+        "charge": "Домашнее насилие",
+        "definition": "Любое лицо (лица), совершающее акт побоев, нападения, нападения со смертельным оружием, сексуальных побоев, изнасилования, пыток, преследования или любой степени убийства в отношении сексуального партнера или члена семьи, как определено законом.",
+        "type": "M",
         "class": {
             "A": false,
             "B": true,
@@ -2986,8 +2986,8 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 12,
+            "days": 1,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
@@ -3021,13 +3021,13 @@
         },
         "extra": "N/A"
     },
-    "222": {
-        "id": "222",
-        "charge": "Слежка / сталкинг",
-        "definition": "Любое лицо, которое незаконно, умышленно, злонамеренно и неоднократно преследует или умышленно и злонамеренно преследует другое лицо с намерением вызвать у этого человека разумный страх за его или ее безопасность или безопасность его или ее ближайших родственников.",
+    "228": {
+        "id": "228",
+        "charge": "клонение к самоубийству",
+        "definition": "Любое лицо, которое преднамеренно помогает, настаивает, побуждает или склоняет другое лицо совершить самоубийство, за исключением случаев добровольной эвтаназии.",
         "type": "F",
         "class": {
-            "A": false,
+            "A": true,
             "B": true,
             "C": false
         },
@@ -3037,8 +3037,8 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 12,
+            "days": 2,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
@@ -3070,13 +3070,13 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "N/A"
+        "extra": "((В случае, если убийство повлечет за собой СК, приговор будет полностью определен по усмотрению суда.))"
     },
-    "222": {
-        "id": "222",
-        "charge": "Слежка / сталкинг",
-        "definition": "Любое лицо, которое незаконно, умышленно, злонамеренно и неоднократно преследует или умышленно и злонамеренно преследует другое лицо с намерением вызвать у этого человека разумный страх за его или ее безопасность или безопасность его или ее ближайших родственников.",
-        "type": "F",
+    "229": {
+        "id": "229",
+        "charge": "Вмешательство в частную жизнь",
+        "definition": "Любое лицо (лица) или организация (организации), которое намеренно как-либо вмешивается, подслушивает, публикует детали личной жизни другого лица, без его разрешения или доверения или без другого официального разрешения.",
+        "type": "I",
         "class": {
             "A": false,
             "B": true,
@@ -3103,7 +3103,7 @@
             "C": 0
         },
         "fine": {
-            "1": 0,
+            "1": 3000,
             "2": 0,
             "3": 0
         },
@@ -3125,21 +3125,21 @@
     },
     "301": {
         "id": "301",
-        "charge": "Arson",
-        "definition": "A person who willfully and maliciously sets fire to or burns or causes to be burned or who aids or advises the burning of, any structure, forest land, or property.",
+        "charge": "Поджог",
+        "definition": "Любое лицо, которое умышленно и злонамеренно поджигает, сжигает или вызывает огонь, либо помогает, советует поджечь или обеспечивает поджог любого строение, лесного массива или собственности.",
         "type": "F",
         "class": {
             "A": true,
-            "B": false,
+            "B": tr,ue
             "C": false
         },
         "offence": {
-            "1": true,
-            "2": false,
+            "1": false,
+            "2": true,
             "3": false
         },
         "time": {
-            "days": 7,
+            "days": 5,
             "hours": 0,
             "min": 0
         },
@@ -3164,19 +3164,19 @@
             "3": 0
         },
         "bail": {
-            "auto": 2,
-            "cost": 500000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "302": {
         "id": "302",
-        "charge": "Burglary",
-        "definition": "Any person who enters or unlawfully remains in any unoccupied publicly or privately owned commercial or residential structure, with the intent to procure items through illicit means, or with intent to commit a crime there.",
+        "charge": "Кража со взломом",
+        "definition": "Любое лицо, которое умышленно проникает в любой объект, жилой или нежилой, находящийся в государственной или в частной собственности, применяя силу или средства взлома для своего проникновения, с целью кражи или хищения материальных ценностей.",
         "type": "F",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
@@ -3190,7 +3190,7 @@
             "min": 0
         },
         "maxtime": {
-            "days": 4,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3215,15 +3215,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 400000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "303": {
         "id": "303",
-        "charge": "Home Invasion",
-        "definition": "Any person who invades any occupied residential structure with or without knowing if there are people or not in the property when the act took place, with the intent to procure items through illicit means, or with intent to commit a crime therein.",
+        "charge": "Крупная кража",
+        "definition": " ",
         "type": "F",
         "class": {
             "A": false,
@@ -3273,9 +3273,9 @@
     },
     "304": {
         "id": "304",
-        "charge": "Grand Theft",
-        "definition": "Any person who steals, takes, carries, leads, or drives away the personal property of another individual or organization in value of $5,501 or more. This charge also includes petty theft of services, which is the intentional failure to pay for rendered services valued at $5,501 or more.",
-        "type": "F",
+        "charge": "Мелкая кража",
+        "definition": "Любое лицо (лица), которое украдет, заберет, унесет, увезет или увезет личное имущество другого лица или организации на сумму не более 5500 долларов.  Этот закон также включает преднамеренную неуплату за оказанные услуги на сумму менее 5501 долларов США.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -3375,8 +3375,8 @@
     },
     "306": {
         "id": "306",
-        "charge": "Grand Theft Auto",
-        "definition": "Any person who steals or attempts to steal or who takes, leads, or drives away another person’s vehicle, without their permission. This charge also includes breaking into a parked vehicle, with or without the attempt to steal the vehicle itself.",
+        "charge": "Кража огнестрельного оружия",
+        "definition": "Любое лицо (а), совершившее кражу зарегистрированного огнестрельного оружия, независимо от его стоимости.",
         "type": "F",
         "class": {
             "A": false,
