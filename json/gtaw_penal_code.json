@@ -47,8 +47,8 @@
     },
     "001": {
         "id": "001",
-        "charge": "Treason",
-        "definition": "Any person who, owing allegiance to the United States, levies war against them or adheres to their enemies, giving them aid and comfort within the United States or elsewhere.",
+        "charge": "Измена штату",
+        "definition": "Любое лицо, которое, будучи верным штату Сан-Андреас, развязывает войну против этого штата или поддерживает врагов штата, оказывая им помощь в пределах или за пределами этого штата.",
         "type": "F",
         "class": {
             "A": true,
@@ -94,12 +94,12 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "Required Court Case"
+        "extra": "Это правонарушение должно быть рассмотрено в суде по обязательному требованию."
     },
     "002": {
         "id": "002",
-        "charge": "Espionage",
-        "definition": "Any person who knowingly communicates, transmits, or attempts to transmit or otherwise makes available to an unauthorized person or uses in any manner prejudicial to the safety or interest of the United States or for the benefit of a foreign country any classified information concerning defense information, healthcare installations and communication intelligence of the United States",
+        "charge": "Шпионаж",
+        "definition": "Любое лицо, которое пытается собирать или передавать защищенную информацию с конкретным намерением или целью, чтобы она была использована для нанесения ущерба штату Сан-Андреас или служит помощью любому иностранному государству.",
         "type": "F",
         "class": {
             "A": true,
@@ -145,12 +145,12 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "Required Court Case"
+        "extra": "Это правонарушение должно быть рассмотрено в суде по обязательному требованию"
     },
     "003": {
         "id": "003",
-        "charge": "Domestic Terrorism",
-        "definition": "a) Any person who, with intent to intimidate or coerce a civilian population, or to influence a policy of a government, or any segment thereof, or to affect the conduct of a unit of government, commits or attempts to commit an act that would result in great bodily injury or death.\n\nb) Any person who, with intent to intimidate or coerce a civilian population, or to influence a policy of a government, or any segment thereof, or to affect the conduct of a unit of government, knowingly and willfully encourages, incites, or solicits another person to commit an act that would result in great bodily injury or death.",
+        "charge": "Убийство, караемое смертной казнью",
+        "definition": "Любое лицо, которое умышленно лишает жизни правоохранителя, спасателя, пожарного, политика, политического деятеля или лидера общественного мнения, или совершает особо отвратительные, зверские или жестокие действия, проявляя исключительную развратность, должно быть подвергнуто смертной казни. Кроме того, убийство по найму или при совершении террористического акта, или акт убийства свидетеля, жертвы или информатора в ответных целях также считаются убийством, караемым смертной казнью.",
         "type": "F",
         "class": {
             "A": true,
@@ -196,12 +196,12 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "Required Court Case"
+        "extra": "Это правонарушение должно быть рассмотрено в суде по обязательному требованию."
     },
     "004": {
         "id": "004",
-        "charge": "Domestic Terror Threats",
-        "definition": "Any person who willfully threatens to commit a crime that will result in great bodily injury or death to another person, to intimidate or coerce a civilian population with specific intent that the statement, made verbally or in writing is to be taken as a threat.",
+        "charge": "Внутренний терроризм",
+        "definition": "Любое лицо, которое незаконно использует угрозы, силу или насилие против людей или собственности для запугивания или принуждения правительства, гражданского населения или любой его части для достижения политических или социальных целей.",
         "type": "F",
         "class": {
             "A": true,
@@ -247,12 +247,12 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "Required Court Case"
+        "extra": "Это правонарушение должно быть рассмотрено в суде по обязательному требованию."
     },
     "101": {
         "id": "101",
-        "charge": "Tax Evasion",
-        "definition": "a) Any person who knowingly, within the time required by law, fails to make, sign, rectify or file any return with the state, city, or any subdivisions thereof or with any public office.\n\nb) Any person who, with intent to avoid any tax, makes, renders, signs, or verifies any false or fraudulent return or statement or supplies any false or fraudulent information to the state, city, or any subdivisions thereof or with any public office.\n\nc) Any person who performs any licensed activity without a valid license and any subsequent operations denies taxes to the state, city, or any subdivisions thereof or with any public office.",
+        "charge": "Уклонение от уплаты налогов",
+        "definition": "Любое лицо, которое в течение срока, установленного законом, умышленно не подает какую-либо декларацию или не предоставит какую-либо информацию с намерением уклониться от уплаты каких-либо налогов. Это также применяется в тех случаях, когда лицензируемая деятельность осуществляется без лицензии, а последующая операция не позволяет штату / городу платить значительные налоги.",
         "type": "F",
         "class": {
             "A": false,
@@ -265,7 +265,7 @@
             "3": true
         },
         "time": {
-            "days": 2,
+            "days": 1,
             "hours": 0,
             "min": 0
         },
@@ -280,9 +280,9 @@
             "C": 2
         },
         "fine": {
-            "1": 5000,
-            "2": 10000,
-            "3": 15000
+            "1": 2500,
+            "2": 3500,
+            "3": 5000
         },
         "impound": {
             "1": 0,
@@ -295,15 +295,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 100000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "102": {
         "id": "102",
-        "charge": "Voter Fraud",
-        "definition": "Any person who attempts to add, subtract or delete votes or attempts to falsify the results of an election or otherwise attempts to dissuade or influence the election voting through coercion, persuasion, promises, bribes, threats, violence, fraud, or trickery.",
+        "charge": "Мошенничество с избирателями / сводничество с избирателями",
+        "definition": "Любое лицо, успешно или безуспешно пытающееся отговорить или повлиять на голосование противоправными, незаконными или неэтичными способами. Независимо от статуса завершения.",
         "type": "F",
         "class": {
             "A": false,
@@ -346,15 +346,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 60000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "103": {
         "id": "103",
-        "charge": "Corruption of Public Office",
-        "definition": "Any person who, while employed by a municipal, county, or state level agency or organization, or any person acting in concert with a public servant’s act with the intent to defraud the government, or any segment thereof to obtain property, actual service, resources or preferential treatment by false or fraudulent pretenses, representations or promises.",
+        "charge": "Коррупция государственной службы",
+        "definition": "Любое лицо, совершающее действие, выходящее за рамки интересов общественного блага, общественного правосудия или выполнения обязанностей лиц, занимающих государственные должности. ",
         "type": "F",
         "class": {
             "A": false,
@@ -367,7 +367,7 @@
             "3": false
         },
         "time": {
-            "days": 4,
+            "days": 3,
             "hours": 0,
             "min": 0
         },
@@ -404,12 +404,12 @@
     },
     "104": {
         "id": "104",
-        "charge": "Neglect of Public Duty",
-        "definition": "Any person who, while employed by a municipal, county, or state level agency, organization or other governmental instrumentality, either willfully or negligently refrains from performing a duty which is imposed upon him by law or is clearly inherent in the nature of his office, leading to the deterioration of public safety, risk of physical harm, actual physical harm, or a violation of this code.",
+        "charge": "Подстрекательство к беспорядкам",
+        "definition": "Любое лицо, имеющее намерение спровоцировать беспорядки, а также создать массовые гражданские беспорядки среди большой группы лиц с намерением причинить вред или нанести ущерб своему непосредственному окружению.",
         "type": "F",
         "class": {
             "A": false,
-            "B": true,
+            "B": false,
             "C": true
         },
         "offence": {
@@ -418,8 +418,8 @@
             "3": false
         },
         "time": {
-            "days": 3,
-            "hours": 0,
+            "days": 0,
+            "hours": 3,
             "min": 0
         },
         "maxtime": {
@@ -449,15 +449,15 @@
         },
         "bail": {
             "auto": true,
-            "cost": 200000
+            "cost": 0
         },
         "extra": "N/A"
     },
     "105": {
         "id": "105",
-        "charge": "Bribery of a Public Official",
-        "definition": "Any person who confers, or offers, or agrees to confer money, goods, services, benefits, or anything of value to a public employee to improperly influence that individual’s official action, opinion, judgment, decision, or exercise of discretion as a public servant.",
-        "type": "F",
+        "charge": "Незаконное собрание",
+        "definition": "Любое лицо, которое отказывается разойтись или покинуть общественный объект или территорию, где организован несанкционированный сбор людей, и которому правоохранительные органы приказали покинуть его.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -469,8 +469,8 @@
             "3": false
         },
         "time": {
-            "days": 3,
-            "hours": 0,
+            "days": 0,
+            "hours": 3,
             "min": 0
         },
         "maxtime": {
@@ -499,19 +499,19 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 300000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "106": {
         "id": "106",
-        "charge": "Incitement To Riot",
-        "definition": "Any person who, with the intent to cause a riot, engages in tumultuous or violent conduct that urges a riot, or urges others to commit acts of force, violence, or destruction of property under circumstances that create public alarm.",
+        "charge": "Пренебрежение общественным долгом",
+        "definition": "Любое лицо, работающее в учреждении, санкционированном правительством на уровне муниципалитета, округа или штата, которое не выполняет возложенные на него обязанности на должности, которую они занимают, что ведет к ухудшению общественной безопасности.",
         "type": "F",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
@@ -520,8 +520,8 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 6,
+            "days": 2,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
@@ -557,8 +557,8 @@
     },
     "107": {
         "id": "107",
-        "charge": "Unlawful Assembly",
-        "definition": "a) Any person who refuses to disperse or leave a public facility or ground without possessing a valid permit and has been ordered to leave by law enforcement.\n\nb) Any person who knowingly assembles with two or more other persons with the intent to engage in conduct that would violate any criminal statute, or engage in conduct that recklessly creates a risk of public alarm, inconvenience, or annoyance, except peaceful gatherings for the purpose of lawful protest, expression of free speech, or any assembly conducted with a valid permit.",
+        "charge": "Подкуп государственного служащего",
+        "definition": "Любое лицо, которое пытается или завершает попытку предоставить финансирование любому государственному должностному лицу для запроса благоприятных услуг.",
         "type": "M",
         "class": {
             "A": false,
@@ -571,8 +571,8 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 3,
+            "days": 2,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
@@ -601,15 +601,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 50000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "108": {
         "id": "108",
-        "charge": "Tampering with Evidence",
-        "definition": "Any person who knowingly alters, modifies, manufactures, plants, places, destroys, damages, conceals, or moves anything used as evidence with the intent to prevent, mislead or hinder a legal proceeding or otherwise produce a deceptive effect at such proceeding.",
+        "charge": "Фальсификация улик",
+        "definition": "Любое лицо, которое сознательно, умышленно или намеренно изменяет, модифицирует, производит, размещает, уничтожает, повреждает, скрывает или перемещает что-либо, используемое в качестве доказательства. Может быть увеличен срок на усмотрение суда.",
         "type": "F",
         "class": {
             "A": false,
@@ -652,15 +652,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 150000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "109": {
         "id": "109",
-        "charge": "Intimidating a Witness or Victim",
-        "definition": "Any person who knowingly and maliciously prevents or dissuades or who attempts to prevent or dissuade a witness or victim, from attending or providing testimony at any judicial proceeding or inquiry, or making a report that could lead to criminal action being taken.",
+        "charge": "Запугивание свидетелей",
+        "definition": "Любое лицо, которое пытается помешать свидетелю давать показания в суде с помощью принуждения, силы, насилия или других незаконных методов.",
         "type": "F",
         "class": {
             "A": false,
@@ -703,15 +703,15 @@
             "3": 0
         },
         "bail": {
-            "auto": 2,
-            "cost": 500000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "110": {
         "id": "110",
-        "charge": "Contempt of Court",
-        "definition": "a) Any person whose disorderly, contemptuous, or insolent behavior, committed during the sitting of a court, in its immediate view and presence directly tends to interrupt its proceedings or to impair the respect due to its authority.\n\nb) Any person who through the breach of the peace, noise, or other disturbance, directly tends to interrupt a court's proceedings.\n\nc) Any person who intentionally disobeys or resists the lawful process or other mandate of a court. This shall also extend to violations of court orders.\n\nd) Any person who knowingly publishes a false or grossly inaccurate report of a court's proceedings.\n\ne) Any person who refuses to pay their criminal or civil fines or fails to do so after being granted a payment plan for said fines.",
+        "charge": "Неуважение к суду",
+        "definition": "a) Любое лицо, которое проявляет безрассудство или халатность во время продолжающегося судебного разбирательства, не подчиняется или сопротивляется в любой форме судебным директивам, постановлениям или пытается иным способом препятствовать отправлению правосудия с помощью незаконных средств для отсрочки судебного разбирательства, виновно в совершении проступка. \n\nb) Любое лицо, которое, находясь под домашним арестом, под постановлением о залоге или поручительстве, не подчиняется или сопротивляется в любой форме судебным директивам, постановлениям, скрывается или иным способом препятствует отправлению правосудия, виновно в совершении проступка.",
         "type": "M",
         "class": {
             "A": false,
@@ -734,7 +734,7 @@
             "C": 0
         },
         "fine": {
-            "1": 20000,
+            "1": 15000,
             "2": 0,
             "3": 0
         },
@@ -752,16 +752,16 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "N/A"
+        "extra": "Это должно быть передано суд по обязательному требованию."
     },
     "111": {
         "id": "111",
-        "charge": "Perjury",
-        "definition": "a) Any person who, having taken an oath that they will testify, declare, depose, or certify truly before any competent tribunal, officer, or in a court sitting willfully and contrary to the oath, states as true any material matter which they know to be false.\n\nb) Any person who, through written or spoken affidavit, knowingly supplies information that is false, incomplete, or willfully inaccurate, with intent to mislead or delay any process of court procedure.\n\nc) No person shall be convicted of perjury where proof of falsity rests solely upon contradiction by testimony of a single person other than the defendant. Proof of falsity may be established by direct or indirect evidence.",
+        "charge": "Лжесвидетельство",
+        "definition": "Любое лицо, которое посредством письменных или устных показаний под присягой предоставляет ложную, неполную или умышленно неточную информацию с намерением ввести в заблуждение или задержать любой процесс судебной процедуры.",
         "type": "F",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
@@ -771,7 +771,7 @@
         },
         "time": {
             "days": 0,
-            "hours": 5,
+            "hours": 4,
             "min": 0
         },
         "maxtime": {
@@ -800,66 +800,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 80000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
-    "112F": {
-        "id": "112F",
-        "charge": "Obstruction of Public Duty (Felony)",
-        "definition": "(a) Any person who without a lawful excuse, through the use of coercion, violence, or by using means meant to delay the administration of public justice or interfere with the safety of a bystander or officer, willfully obstruct or delay a public servant in the performance of their duties, with the intent to cause grievous bodily harm, or death, to another.\n\n(b) Any person who without a lawful excuse, through the use of coercion, violence, or by using means meant to delay the administration of public justice or interfere with the safety of a bystander or officer, willfully obstruct or delay a public servant in the performance of their duties, with the intent to cause serious damage to property which exceeds $50,000, or some other serious loss which exceeds $100,000, or minor bodily harm to another.\n\n(c) Any person who without a lawful excuse, through the use of coercion, violence, or by using means meant to delay the administration of public justice or interfere with the safety of a bystander or officer, willfully obstruct or delay a public servant in the performance of their duties, with\nthe intent to:\n\n(i) cause some loss amounting to no more than $50,000, or\n(ii) subvert, or cause another to subvert, public order.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 25
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 4,
-            "min": 0
-        },
-        "points": {
-            "A": 4,
-            "B": 3,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "For any violation(s) of provision (a) of this offense shall be liable under a Class A felony.\n\nFor any violation(s) of provision (b) of this offense shall be liable under a Class B felony."
-    },
-    "112M": {
-        "id": "112M",
-        "charge": "Obstruction of Public Duty (Misdemeanor)",
-        "definition": "(a) Any person who without a lawful excuse, through the use of coercion, violence, or by using means meant to delay the administration of public justice or interfere with the safety of a bystander or officer, willfully obstruct or delay a public servant in the performance of their duties, with the intent to cause grievous bodily harm, or death, to another.\n\n(b) Any person who without a lawful excuse, through the use of coercion, violence, or by using means meant to delay the administration of public justice or interfere with the safety of a bystander or officer, willfully obstruct or delay a public servant in the performance of their duties, with the intent to cause serious damage to property which exceeds $50,000, or some other serious loss which exceeds $100,000, or minor bodily harm to another.\n\n(c) Any person who without a lawful excuse, through the use of coercion, violence, or by using means meant to delay the administration of public justice or interfere with the safety of a bystander or officer, willfully obstruct or delay a public servant in the performance of their duties, with\nthe intent to:\n\n(i) cause some loss amounting to no more than $50,000, or\n(ii) subvert, or cause another to subvert, public order.",
+    "113": {
+        "id": "113",
+        "charge": "Неправильное использование горячей линии",
+        "definition": "Любое лицо, использующее государственную горячую линию, предназначенную для оказания экстренной или неэкстренной помощи, для розыгрыша, шуток или любых других отвлекающих факторов.",
         "type": "M",
         "class": {
             "A": false,
@@ -874,61 +823,10 @@
         "time": {
             "days": 0,
             "hours": 0,
-            "min": 25
+            "min": 30
         },
         "maxtime": {
             "days": 0,
-            "hours": 0,
-            "min": 25
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "For any violation(s) of provision (c) of this offense shall be liable under a Class C misdemeanor."
-    },
-    "113M": {
-        "id": "113M",
-        "charge": "Obstructing a Peace Officer's Animal (Misdemeanor)",
-        "definition": "a) Any person who willfully and maliciously, and with no legal justification, interferes with or obstructs any animal being used by a peace officer in the discharge or attempted discharge of their duties by frightening, teasing, agitating, harassing, or hindering the animal.\n\nb) Any person who willfully with no legal justification, strikes, beats, kicks, cuts, stabs, shoots, poisons, or otherwise injures a peace officer's animal that is working at the supervision of a peace officer.\n\nc) Any person who, in violation of provisions (a) and (b), and with intent to inflict that injury or death, personally causes the death, or serious physical injury including loss or impairment of function of any bodily member or serious crippling.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 12,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
             "hours": 0,
             "min": 0
         },
@@ -938,7 +836,7 @@
             "C": 0
         },
         "fine": {
-            "1": 0,
+            "1": 5000,
             "2": 0,
             "3": 0
         },
@@ -953,67 +851,16 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 250000
+            "auto": false,
+            "cost": 0
         },
-        "extra": "For any violation(s) of provision (a) and (b) this offense shall be liable under a Class B misdemeanor."
-    },
-    "113F": {
-        "id": "113F",
-        "charge": "Obstructing a Peace Officer's Animal (Felony)",
-        "definition": "a) Any person who willfully and maliciously, and with no legal justification, interferes with or obstructs any animal being used by a peace officer in the discharge or attempted discharge of their duties by frightening, teasing, agitating, harassing, or hindering the animal.\n\nb) Any person who willfully with no legal justification, strikes, beats, kicks, cuts, stabs, shoots, poisons, or otherwise injures a peace officer's animal that is working at the supervision of a peace officer.\n\nc) Any person who, in violation of provisions (a) and (b), and with intent to inflict that injury or death, personally causes the death, or serious physical injury including loss or impairment of function of any bodily member or serious crippling.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": false,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 8,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 3,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "For any violation(s) of provision (c) this offense shall be liable under a Class A felony."
+        "extra": "N/A"
     },
     "114": {
         "id": "114",
-        "charge": "Escape From Lawful Custody",
-        "definition": "Any person arrested, booked, charged, or convicted of a criminal offense, and who thereafter escapes from a county or city jail, prison, detention facility, community service, or the custody of a correctional officer in charge of them.",
-        "type": "F",
+        "charge": "Сопротивление аресту / Препятствование правоохранителю",
+        "definition": "a) Любое лицо, которое намеренно сопротивляется, задерживает или препятствует законной деятельности правоохранителя штата Сан-Андреас без использования транспортных средств\n\nb) Любое лицо, ложно представляющееся или называющее себя другим лицом или вымышленным лицом любому сотруднику полиции при законном задержании или аресте этого лица, либо с целью уклонения от судебного разбирательства, равное отказаться давать письменное обещание явиться в суд по делу, либо с целью отклоняться и не выполнять приказы правоохранителя, либо уклонение от надлежащей идентификации этого лица сотрудником, проводящему расследование/задержание. \n\nc) Отказ подписать штраф/предписание после требования офицера правопорядка, а также уничтожение неподписанного штрафного талона.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -1025,8 +872,8 @@
             "3": false
         },
         "time": {
-            "days": 7,
-            "hours": 0,
+            "days": 0,
+            "hours": 6,
             "min": 0
         },
         "maxtime": {
@@ -1062,9 +909,9 @@
     },
     "115": {
         "id": "115",
-        "charge": "Evading a Peace Officer",
-        "definition": "Any person who, while operating or upon entering a motor vehicle, or bicycle and with the intent to evade, willfully flees or otherwise attempts to elude a pursuing peace officer.",
-        "type": "F",
+        "charge": "Выдача себя за другое лицо / государственного служащего",
+        "definition": "Любое лицо (а), которое представляет себя работником государственной службы, частной / государственной профессии или любой должности, на которую они не имеют лицензии или не работают. Также распространяется на выдачу себя за конкретных лиц.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -1076,8 +923,8 @@
             "3": true
         },
         "time": {
-            "days": 1,
-            "hours": 0,
+            "days": 0,
+            "hours": 3,
             "min": 0
         },
         "maxtime": {
@@ -1106,8 +953,8 @@
             "3": 7
         },
         "bail": {
-            "auto": 2,
-            "cost": 500000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A",
         "code_enhancement": "STREETS",
@@ -1115,8 +962,8 @@
     },
     "116": {
         "id": "116",
-        "charge": "Resisting Arrest",
-        "definition": "Any person who intentionally delays, avoids, obstructs, prevents or attempts to prevent a peace officer from effecting the apprehension of himself or another person or in the discharge or attempted discharge of their duties. Shall extend to lying to a peace officer.",
+        "charge": "Неуплата штрафа",
+        "definition": "Лицо, которое намеренно отказывается оплатить полученный им штраф в течение 7 дней после получения последней штрафной квитанции, не считая время потраченное на оспаривание штрафа в суде, является виновным в проступке",
         "type": "M",
         "class": {
             "A": false,
@@ -1130,62 +977,11 @@
         },
         "time": {
             "days": 0,
-            "hours": 6,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
             "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 50000
-        },
-        "extra": "N/A"
-    },
-    "117": {
-        "id": "117",
-        "charge": "Lying to Government Agents",
-        "definition": "Any person who knowingly and willfully makes any materially false, fictitious or fraudulent statement or representation in any matter within the jurisdiction of the executive, legislative or judicial branch of the United States.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 8,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
             "hours": 0,
             "min": 0
         },
@@ -1210,117 +1006,117 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 150000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
+    },
+    "116.1": {
+        "id": "116.1",
+        "charge": "Злостная неуплата штрафа",
+        "definition": "Лицо, которое намеренно отказалось от уплаты 5 и более штрафов в течение 10 дней после получения последней штрафной квитанции, не считая время потраченное на оспаривание штрафа в суде, является виновным в тяжком преступлении.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 6000,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "Это должно быть передано суд по обязательному требованию."
+    },
+    "117": {
+        "id": "117",
+        "charge": "Игнорирование повестки в суд / невыполнение государственных распоряжений",
+        "definition": "Любое лицо (а), которое не отвечает на повестку в суд или не предоставляет информацию относительно повестки в суд, или любое лицо (а), которое не выполняет приказы государственных органов. Это также распространяется на нарушение статуса условно-досрочного освобождения / условного освобождения.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 30
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2000,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "Это правонарушение должно быть рассмотрено в суде по обязательному требованию только если оно касается нарушения УДО или неявки в суд по повестке."
     },
     "118": {
         "id": "118",
-        "charge": "Misuse of an Emergency Hotline",
-        "definition": "Any person who uses a government hotline, intended for either emergency or non-emergency assistance, with a purpose other than contacting the government with a legitimate concern or ushering for immediate assistance, including prank calls, jokes, or any other kind of distraction.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 1,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 5000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 90000
-        },
-        "extra": "N/A"
-    },
-    "119": {
-        "id": "119",
-        "charge": "False Impersonation",
-        "definition": "a) Any person(s) who presents themselves as another or pretends to be a representative of some person or organization or impersonates  another  by  communication by  internet  website  or electronic  means  and does an act in such pretended capacity with intent to obtain a benefit or to injure or defraud another.\n\nb) Any person(s) who falsely represents themselves as a law enforcement officer, by wearing or displaying any uniform, badge, or other insignia that is commonly associated with such an officer, or by verbally or through their actions indicating that they are a law enforcement officer, with the intent to deceive another person into believing that they are a law enforcement officer and submitting to their authority.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 4,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 150000
-        },
-        "extra": "N/A"
-    },
-    "120": {
-        "id": "120",
-        "charge": "Assault & Battery on a Government Worker",
-        "definition": "a) Any person who engages in willful and unlawful use of physical force upon a government worker.\n\nb) Any person who unlawfully attempts to commit a violent injury on a government worker or attempts to put a government worker they are in the presence of in reasonable fear of physical injury.",
+        "charge": "Угроза нападения и/или нападение на государственного служащего",
+        "definition": "a) Любое лицо, угрожающее напасть или причинить иной вред жизни или здоровью члену правительства, офицеру мира, сотруднику либо представителю любой государственной организации, санкционированной правительством города, округа или штата.\n\nb) Любое лицо, нападающее с намерением нанести травму, искалечить или причинить иной вред жизни или здоровью члену правительства, офицеру мира, сотруднику либо представителю любой государственной организации, санкционированной правительством города, округа или штата.",
         "type": "F",
         "class": {
             "A": true,
@@ -1333,18 +1129,120 @@
             "3": false
         },
         "time": {
-            "days": 2,
+            "days": 1,
             "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 6,
+            "days": 3,
             "hours": 0,
             "min": 0
         },
         "points": {
-            "A": 5,
-            "B": 4,
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "119": {
+        "id": "119",
+        "charge": "Уклонение от офицера охраны правопорядка",
+        "definition": "Любое лицо, которое, при помощи любого транспортного средства (в том числе велосипеда), умышленно пытается скрыться от преследующего его  правоохранителя.\n\nПримечание: Транспортное средство (автомобиль, велосипед, мотоцикл) правоохранителя считается преследующим, если:\n- спереди транспортного средства правоохранителя был виден по крайней мере один зажженный красный фонарь (спецсигнал);\n- обвиняемое лицо видело или разумно предположить, что оно должно было видеть этот фонарь (спецсигнал);\n- правоохранитель включал звуковую сирену по мере необходимости и возможности.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 3,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 5000,
+            "2": 0,
+            "3": 40000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "120": {
+        "id": "120",
+        "charge": "Раскрытие информации по ордеру",
+        "definition": "Каждый окружной прокурор, клерк, судья (магистрат) или правоохранитель штата Сан-Андреас, который, кроме как путем выдачи или исполнения ордера на обыск или на арест, умышленно раскрывает факт ордера до его исполнения с целью предотвращения обыска или ареста любого лица по данному ордеру, является виновным в тяжком преступлении.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 3,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
             "C": 0
         },
         "fine": {
@@ -1370,9 +1268,9 @@
     },
     "121": {
         "id": "121",
-        "charge": "Forgery",
-        "definition": "Any person who knowingly creates, completes or alters a written instrument, with the intent to defraud, deceive or injure another",
-        "type": "M",
+        "charge": "Раскрытие информации по расследованию",
+        "definition": "Каждый окружной прокурор, клерк, судья или правоохранитель штата Сан-Андреас, который, умышленно раскрывает факт или детали другим лицам, не имеющих законных оснований на получение информации по расследованию досудебному, полицейскому или специальному до его окончания или передачи в суд, является виновным в тяжком преступлении.",
+        "type": "F",
         "class": {
             "A": false,
             "B": false,
@@ -1384,15 +1282,15 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
             "days": 3,
             "hours": 0,
             "min": 0
         },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
         "points": {
             "A": 0,
             "B": 0,
@@ -1415,14 +1313,14 @@
         },
         "bail": {
             "auto": false,
-            "cost": 350000
+            "cost": 0
         },
         "extra": "N/A"
     },
-    "122M": {
-        "id": "122M",
-        "charge": "Fraud",
-        "definition": "a) Any person who knowingly, by any means of false representation by words, conduct, misleading allegation or by concealment of facts or written instruments attempts to defraud any other person of money, labor, or property, whether real or personal. (M)\n\nb) Fraud resulting in the loss of $15,000 or more in monetary value will be considered a felony charge. (F)\n\nc) Any person having on display on their own vehicle, an identification plate registered to another vehicle owned by themselves. (F)",
+    "122": {
+        "id": "122",
+        "charge": "Полицейское насилие",
+        "definition": "Лицо, которое является правоохранителем штата Сан-Андреас, без законной надобности намеренно избивает или нападает на другое лицо, либо причиняет иные физические и моральные увечья",
         "type": "M",
         "class": {
             "A": false,
@@ -1431,16 +1329,169 @@
         },
         "offence": {
             "1": true,
-            "2": false,
+            "2": true,
+            "3": true
+        },
+        "time": {
+            "days": 3,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 20000,
+            "2": 0,
+            "3": 40000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "123": {
+        "id": "123",
+        "charge": "Осуществление предпринимательской деятельности с отсутствующей, отозванной или приостановленной лицензией",
+        "definition": "Любое лицо, которое осуществляет предпринимательскую деятельность на территории штата с отозванной и/или приостановленной лицензией.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": true,
             "3": false
         },
         "time": {
             "days": 0,
-            "hours": 6,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 2,
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 2
+        },
+        "fine": {
+            "1": 20000,
+            "2": 0,
+            "3": 40000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "124": {
+        "id": "124",
+        "charge": "Несанкционированное использование информации из системы MDC",
+        "definition": "a) Любое лицо, которое вне рамок своей профессиональной деятельности делится, распространяет или публикует любую информацию из системы Mobile Data Computer (MDC), независимо от ее классификации или секретности, не предназначенную для публичного распространения или личного использования.\n\nb) Любое лицо, которое по небрежности или преднамеренно делится, распространяет или публикует любую информацию из MDC, которая ставит под угрозу общественную безопасность, целостность расследований или безопасность системы MDC, включая личные данные, контактные данные или информацию об имуществе.\n\nc) Любое лицо, которое получает доступ, использует, изменяет, удаляет или нарушает работу какой-либо функции системы, сети или данных мобильного компьютера передачи данных (MDC) с намерением воспрепятствовать законным операциям или присвоить MDC для личных, неофициальных, или преступной деятельности.\n\n d) Любое лицо, использующее систему MDC для содействия совершению любого преступления или несанкционированного распространения информации.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 3,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 30000,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "125": {
+        "id": "125",
+        "charge": "Убийство полицейской собаки",
+        "definition": "Любое лицо, которое намеренно или осознанно причиняет смерть собаке офицера мира.",
+        "type": "F",
+        "class": {
+            "A": true,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 6,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -1468,114 +1519,12 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "For any violation(s) of provision (a) this offense shall be liable under a Class C misdemeanor."
+        "extra": "N/A"
     },
-    "122F": {
-        "id": "122F",
-        "charge": "Fraud",
-        "definition": "a) Any person who knowingly, by any means of false representation by words, conduct, misleading allegation or by concealment of facts or written instruments attempts to defraud any other person of money, labor, or property, whether real or personal. (M)\n\nb) Fraud resulting in the loss of $15,000 or more in monetary value will be considered a felony charge. (F)\n\nc) Any person having on display on their own vehicle, an identification plate registered to another vehicle owned by themselves. (F)",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "For any violation(s) of provisions (b) or (c) this offense shall be liable under a Class C felony."
-    },
-    "123": {
-        "id": "123",
-        "charge": "Money Laundering",
-        "definition": "Any person who knowing that a property or monetary instruments represent the proceeds of criminal conduct, or the criminal sale of a controlled substance or weapons, or an act of terrorism, they conduct such financial transactions involving such proceeds or transports, transmits, or  transfers such monetary instruments with the intent to promote the carrying on of criminal conduct, knowing such transactions in whole or in part are designed to conceal or disguise the nature, the location, the source, the ownership or the control of the proceeds of criminal conduct, or avoid any transaction reporting requirement imposed by law.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 10000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 500000
-        },
-        "extra": "The total value of the property involved in such financial transaction(s) dictates the charging guidelines, check the penal code."
-    },
-    "124": {
-        "id": "124",
-        "charge": "Defacing U.S. Currency",
-        "definition": "Any person who mutilates, cuts, defaces, disfigures, destroys, or perforates, or unites or cements together, or does any other thing to any bank bill or note with intent to render such bank bill or note unusable.",
+    "126": {
+        "id": "126",
+        "charge": "Нападение на полицейскую собаку",
+        "definition": "Любое лицо, которое намеренно пинает, отталкивает, ударяет или причиняет телесные повреждения с использованием или без использования огнестрельного или иного оружия собаке офицера мира, совершает проступок. ﻿",
         "type": "M",
         "class": {
             "A": false,
@@ -1588,114 +1537,12 @@
             "3": false
         },
         "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
             "days": 2,
             "hours": 0,
             "min": 0
         },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 350000
-        },
-        "extra": "N/A"
-    },
-    "125": {
-        "id": "125",
-        "charge": "Disturbing the Peace",
-        "definition": "Any person(s) who engages in the following: fighting, violence, tumultuous or threatening behavior, unreasonable noise, abusive or obscene language/gestures in public.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
+        "maxtime": {
             "days": 0,
-            "hours": 1,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 2500,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 100000
-        },
-        "extra": "N/A"
-    },
-    "126": {
-        "id": "126",
-        "charge": "Racketeering",
-        "definition": "(a) It shall be unlawful for any person, group of persons, or organization(s), to knowingly engage or participate in, or conspire to engage or participate in, a pattern of racketeering activity, or through the collection of an unlawful debt,  in the service of, association with or employment by any enterprise.\n\n(b) It shall be unlawful for any person through a pattern of criminal racketeering activity or through the collection of an unlawful debt to acquire or maintain, directly or indirectly, any interest in or control of any enterprise which is engaged in, or the activities of which affect, commercial activity.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": true,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 8,
             "hours": 0,
             "min": 0
         },
@@ -1720,929 +1567,6 @@
             "3": 0
         },
         "bail": {
-            "auto": 2,
-            "cost": 500000
-        },
-        "extra": "'Enterprise' and all variations shall reference any coordinated, cooperative or collaborative activity undertaken by two or more persons associated by partnership, corporation, association, or other legal entity, and any union or group of individuals associated in fact but not necessarily through a legal entity with the intention of achieving financial or other material gain for the affiliated persons.\n\n'Racketeering activity' and all variations shall refer to any act involving the commission or attempted commission, a conspiracy to commit, threat to commit or to intentionally aid, solicit, order, coerce or intimidate another person to commit any unlawful activities defined within any of the following listed within the Penal Code.\n\n'Pattern of racketeering activity' and all variations shall refer to a minimum of two acts of racketeering activity, one of which occurred after the effective date of this section and the last of which occurred within twenty days after the commission of a prior act of racketeering activity, excluding any period of imprisonment.\n\n'Unlawful debt' and all variations shall reference any money or other things of value constituting principal or interest of a debt that is incurred or contracted in violation of any of the aforementioned activities."
-    },
-    "127": {
-        "id": "127",
-        "charge": "Violation of EFCE Act - Signal Jamming",
-        "definition": "a) Any person who knowingly and willfully—without legal justification or exemption—manufactures, produces, processes, or prepares a signal jammer which violates the provisions of the EFCE Act of 2023.\n\nb) Any person who knowingly and willfully—without legal justification or exemption—possesses, sells, distributes, advertises, or markets a signal jammer device which violations the provisions of the EFCE Act of 2023. Any individual charged with sales also qualifies to be charged with possession.\n\nc) Any person who knowingly and willfully—without legal justification or exemption—utilizes, employs, operates, or exploits a signal jammer to effect, manipulate, distort, or jam any communications system or alarm system which violates the provisions of the EFCE Act.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 75000
-        },
-        "extra": "N/A"
-    },
-    "128": {
-        "id": "128",
-        "charge": "Violation of EFCE Act - Card Skimming",
-        "definition": "a) Any person who knowingly and willfully—without legal justification or exemption—manufactures, produces, processes, or prepares a card skimmer which violates the provisions of the EFCE Act.\n\nb) Any person who knowingly and willfully—without legal justification or exemption—possesses, sells, distributes, advertises, or markets a card skimmer device which violates the provisions of the EFCE Act. Any individual charged with sales also qualifies to be charged with possession.\n\nc) Any person who knowingly and willfully—without legal justification or exemption—possesses or uses a card skimmer to obtain financial information from individuals without their knowledge or consent, which violates the provisions of the EFCE Act.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 75000
-        },
-        "extra": "N/A"
-    },
-    "129": {
-        "id": "129",
-        "charge": "Violation of EFCE Act - Vehicle Tracking",
-        "definition": "a) Any person who installs or plants an electronic tracking device on any vehicle or possession which violates the provisions of the EFCE Act.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 6
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 75000
-        },
-        "extra": "N/A"
-    },
-    "130": {
-        "id": "130",
-        "charge": "Rescuing A Prisoner",
-        "definition": "Any person who rescues or attempts to rescue, or aids another person in rescuing or attempting to rescue any prisoner from any prison, or prison road camp or any jail or county road camp, or from any officer or person having him or her in lawful custody.\n\nAny person who enters into a designated staff only zone as laid out by the Department of Corrections and Rehabilitation Authorization Act of 2023, without authorization from the Department of Corrections and Rehabilitation.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 7,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 9,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": 2,
-            "cost": 500000
-        },
-        "extra": "N/A"
-    },
-    "131": {
-        "id": "131",
-        "charge": "Bringing Contraband Into A Correctional Facility",
-        "definition": "Any person(s) who knowingly brings into any detention facility as defined in the DCRA Act of 2023,  any controlled substances as defined in Schedule I of Drug Enforcement and Prevention Act, or any device, contrivance, instrument, or paraphernalia intended to be used for unlawfully injecting or consuming any drug other than controlled substances, or any alcoholic beverages, or is in possession of any of the aforementioned contraband within the aforementioned locations, without having authority so to do by the rules of the Department of Corrections, or by the specific authorization of the warden, superintendent, jailer, or other person in charge of the facility. The highest category in possession determines the overall penalty.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "A": {
-                "days": 7,
-                "hours": 0,
-                "min": 0
-            },
-            "B": {
-                "days": 6,
-                "hours": 0,
-                "min": 0
-            },
-            "C": {
-                "days": 5,
-                "hours": 0,
-                "min": 0
-            },
-            "D": {
-                "days": 4,
-                "hours": 0,
-                "min": 0
-            },
-            "T": {
-                "days": 1,
-                "hours": 0,
-                "min": 0
-            },
-            "Alcohol": {
-                "days": 3,
-                "hours": 0,
-                "min": 0
-            },
-            "Instruments": {
-                "days": 5,
-                "hours": 0,
-                "min": 0
-            }
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 5
-        },
-        "fine": {
-            "A": 45000,
-            "B": 37500,
-            "C": 30000,
-            "D": 22500,
-            "T": 8000,
-            "Alcohol": 25000,
-            "Instruments": 30000
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": {
-                "A": true,
-                "B": true,
-                "C": true,
-                "D": true,
-                "T": true,
-                "Alcohol": true,
-                "Instruments": true
-            },
-            "cost": {
-                "A": 250000,
-                "B": 250000,
-                "C": 250000,
-                "D": 250000,
-                "T": 250000,
-                "Alcohol": 250000,
-                "instruments": 250000
-            }
-        },
-        "extra": "N/A",
-        "drugs": {
-            "1": "A",
-            "2": "B",
-            "3": "C",
-            "4": "D",
-            "5": "T",
-            "6": "Alcohol",
-            "7": "Instruments"
-        }
-    },
-    "132": {
-        "id": "132",
-        "charge": "Possession Of Communications In A Correctional Facility",
-        "definition": "(a) Any person in a local correctional facility who possesses a wireless communication device, including, but not limited to, a cellular telephone, pager, or wireless Internet device, who is not authorized to possess that item is guilty of a misdemeanor, punishable by a fine of not more than one thousand dollars ($1,000).\n\n(b) Money collected pursuant to this section shall be placed into the inmate welfare fund, as specified in Section 4025.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "N/A"
-    },
-    "133": {
-        "id": "133",
-        "charge": "Possession Of Tobacco In A Correctional Facility",
-        "definition": "(a) Any person housed in a local correctional facility who possesses any tobacco products in any form, including snuff products, smoking paraphernalia, any device that is intended to be used for ingesting or consuming tobacco, or any container or dispenser used for any of those products, is guilty of an infraction, punishable by a fine not exceeding two hundred fifty dollars ($250).\n\n(b) Subdivision (a) shall only apply to a person in a local correctional facility in a county in which the city council or county commission has adopted an ordinance or passed a resolution banning tobacco in its correctional facilities.\n\n(c) Money collected pursuant to this section shall be placed into the inmate welfare fund, as specified in Section 4025.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "134": {
-        "id": "134",
-        "charge": "Possession Of Handcuff Keys In A Correctional Facility",
-        "definition": "(d) Any person housed in a local correctional facility who possesses a handcuff key who is not authorized to possess that item is guilty of a misdemeanor, punishable by imprisonment in a county jail not exceeding six months, or by a fine of up to one thousand dollars ($1,000), or by both that imprisonment and fine. As used in this subdivision, “handcuff key” means any device designed or intended to open or unlatch a handcuff.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 1,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "N/A"
-    },
-    "135": {
-        "id": "135",
-        "charge": "Murder of a Peace Officer Canine",
-        "definition": "Any person(s) who intentionally or knowingly, without lawful cause or justification, causes death upon a peace officer canine.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": false,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 7,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 7,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 15,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "136": {
-        "id": "136",
-        "charge": "Aggravated Battery of a Peace Officer Canine",
-        "definition": "Any person(s) who intentionally or knowingly, without lawful cause or justification, causes great bodily harm or permanent disability upon a peace officer canine, with or without a deadly weapon.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": false,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 4,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "137": {
-        "id": "137",
-        "charge": "Battery of a Peace Officer Canine",
-        "definition": "Any person(s) who intentionally or knowingly maliciously touches, strikes, or causes bodily harm to a peace officer canine commits a misdemeanor without a deadly weapon.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 100000
-        },
-        "extra": "N/A"
-    },
-    "138": {
-        "id": "138",
-        "charge": "Obstruction of a Peace Officer Canine",
-        "definition": "Any person(s) who intentionally or knowingly maliciously harasses, teases, interferes with, or attempts to interfere with a peace officer canine while the working dog is in the performance of its duties commits a misdemeanor.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 25
-        },
-        "maxtime": {
-            "days": 0,
-            "hours": 0,
-            "min": 25
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 2500,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "139": {
-        "id": "139",
-        "charge": "Misuse of the Mobile Data Computer",
-        "definition": "a) Any person(s) who, accesses, uses, alters, damages, deletes, or disrupts any function of an Mobile Data Computer (MDC) system, network, or data, with the intent to hinder or obstruct lawful operations, or to appropriate the MDC for personal, non-official, or criminal activities.\n\nb) Any person(s) who utilizes the MDC system or network to facilitate the commission of any crime, including fraud, theft, or unauthorized dissemination of personal or sensitive information.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": true,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 3,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "140": {
-        "id": "140",
-        "charge": "Unauthorized Sharing of Information from the Mobile Data Computer",
-        "definition": "a) Any person(s) who, outside their scope of employment, shares, disseminates, or publishes any information from the Mobile Data Computer (MDC) system, network, or data, regardless of its classification or sensitivity, not intended for public release or personal use.\n\nb) Any person(s) who negligently or intentionally shares, disseminates, or publishes any information from the MDC that compromises public safety, the integrity of investigations, or the security of the MDC system, including personal, contact, or property details.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": true,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 8,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 3,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "141": {
-        "id": "141",
-        "charge": "Unlawful Communication with an Inmate",
-        "definition": "Every person who, without the permission of the warden or other officer in charge of any detention facility as defined in the DCRA Act of 2024, communicates with any prisoner or person detained therein, or brings therein or takes therefrom any letter, writing, literature, or reading matter to or from any prisoner or person confined therein, is guilty of a misdemeanor.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 18,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "142M": {
-        "id": "142M",
-        "charge": "Failure to Appear at Court (Misdeamanor)",
-        "definition": "a) Every person who is charged with or convicted of the commission of a misdemeanor who is released from custody on his or her own recognizance and who in order to evade the process of the court willfully fails to appear as required, is guilty of a misdemeanor.\n\n(b) Every person who is charged with or convicted of the commission of a felony who is released from custody on his or her own recognizance and who in order to evade the process of the court willfully fails to appear as required, is guilty of a felony.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "142F": {
-        "id": "142F",
-        "charge": "Failure to Appear at Court (Felony)",
-        "definition": "a) Every person who is charged with or convicted of the commission of a misdemeanor who is released from custody on his or her own recognizance and who in order to evade the process of the court willfully fails to appear as required, is guilty of a misdemeanor.\n\n(b) Every person who is charged with or convicted of the commission of a felony who is released from custody on his or her own recognizance and who in order to evade the process of the court willfully fails to appear as required, is guilty of a felony.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
             "auto": false,
             "cost": 0
         },
@@ -2650,12 +1574,12 @@
     },
     "201": {
         "id": "201",
-        "charge": "Capital Murder",
-        "definition": "a) Any person who deliberately takes the life of a police officer, firefighter, paramedic, prosecutor, judge, juror, or other elected official while in the commission of their duty, or any witness in a criminal proceeding.\n\nb) Any person who uses especially heinous, atrocious, or cruel acts, manifesting exceptional depravity in the commission of murder in the first or second degree, or any murder that results from a murder-for-hire contract. In case of contract murders, both the killer and the person ordering the contract may be charged as a principal.\n\nc) Any person who purposely kills more than one individual and the murders are committed pursuant to the same scheme or course of conduct.\n\nd) Any incarcerated person who, while serving a life sentence, causes the death of another human being, through premeditated actions with malice aforethought. (( Death penalty for this charge requires FM Permission ))",
-        "type": "F",
+        "charge": "Угроза нападения",
+        "definition": "Любое лицо, которое умышленно совершает незаконную попытку, вкупе с имеющейся возможностью, совершить насильственное причинение вреда здоровью другому лицу.\n\nПримечание:\na) Такая попытка необязательно должна привести к травмам или вреду здоровья для обвинения в угрозе нападения. Достаточно даже того, чтобы обвиняемое лицо прикоснулось к другому лицу "оскорбительным" образом. Даже малейшее прикосновение может быть засчитано, если оно сделано в грубой или оскорбительной форме.\nb) Угроза нападения включает в себя, но не ограничивается: бросок камня в человека (при условии, что не на нес увечий), плевок, злонамеренное хватание за руку, одежду, волосы и т.д.",
+        "type": "M",
         "class": {
-            "A": true,
-            "B": false,
+            "A": false,
+            "B": true,
             "C": false
         },
         "offence": {
@@ -2664,12 +1588,12 @@
             "3": false
         },
         "time": {
-            "days": 20,
-            "hours": 6,
+            "days": 0,
+            "hours": 3,
             "min": 0
         },
         "points": {
-            "A": 18,
+            "A": 0,
             "B": 0,
             "C": 0
         },
@@ -2692,25 +1616,25 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "(( CK = Required Case ))\n(( Death penalty for this charge requires FM Permission ))"
+        "extra": "N/A"
     },
     "202": {
         "id": "202",
-        "charge": "First Degree Murder",
-        "definition": "Any person who causes the death of another human being, through premeditated actions with malice aforethought.",
+        "charge": "Угроза нападения со смертоносным оружием",
+        "definition": "Любое лицо, которое умышленно совершает незаконную попытку, вкупе с имеющейся возможностью, совершить насильственное причинение вреда здоровью другому лицу с применением смертоносного оружия.\n\nПримечание:\nСмертоносное оружие - это любой вид оружия или предмета, который способен причинить смерть или тяжкие телесные повреждения. Это определение включает в себя не только очевидное смертоносное оружие (такое как пистолеты и ножи), но и другие предметы, если они используются таким образом, что могут убить человека или причинить существенный вред.",
         "type": "F",
         "class": {
-            "A": true,
-            "B": false,
+            "A": false,
+            "B": true,
             "C": false
         },
         "offence": {
             "1": true,
-            "2": false,
+            "2": true,
             "3": false
         },
         "time": {
-            "days": 18,
+            "days": 1,
             "hours": 0,
             "min": 0
         },
@@ -2738,25 +1662,25 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "(( CK = Required Case ))"
+        "extra": "N/A"
     },
     "203": {
         "id": "203",
-        "charge": "Second Degree Murder",
-        "definition": "Any person who causes the death of another human being, through unpremeditated actions with malice aforethought.",
+        "charge": "Покушение на убийство",
+        "definition": "Любое лицо, которое безуспешно пытается убить другого человека.",
         "type": "F",
         "class": {
             "A": true,
-            "B": false,
+            "B": true,
             "C": false
         },
         "offence": {
-            "1": true,
-            "2": false,
+            "1": false,
+            "2": true,
             "3": false
         },
         "time": {
-            "days": 15,
+            "days": 3,
             "hours": 0,
             "min": 0
         },
@@ -2784,16 +1708,16 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "(( CK = Required Case ))"
+        "extra": "N/A"
     },
     "204": {
         "id": "204",
-        "charge": "Voluntary Manslaughter",
-        "definition": "Any person who engages in the unlawful killing of a human being without malice upon a sudden quarrel or heat of passion, or based on an honest but unreasonable belief that deadly force is necessary (imperfect self-defense).",
-        "type": "F",
+        "charge": "Нападение",
+        "definition": "Любое лицо, совершающее умышленное и незаконное применение силы или насилия посредством физического контакта с другим лицом.",
+        "type": "M",
         "class": {
-            "A": true,
-            "B": false,
+            "A": false,
+            "B": true,
             "C": false
         },
         "offence": {
@@ -2802,8 +1726,8 @@
             "3": false
         },
         "time": {
-            "days": 5,
-            "hours": 0,
+            "days": 0,
+            "hours": 6,
             "min": 0
         },
         "maxtime": {
@@ -2839,12 +1763,12 @@
     },
     "205": {
         "id": "205",
-        "charge": "Involuntary Manslaughter",
-        "definition": "Any person who engages in the unintentional killing of a human being without malice, either caused by an unlawful act that is not a felony, or a negligent act or failure to act.",
-        "type": "F",
+        "charge": "Угрозы преступного характера",
+        "definition": "Любое лицо (а), которое умышленно угрожает совершить преступление, которое приведет к смерти или телесному повреждению другого лица, устно, письменно или с помощью электронного устройства связи, при этом сюда входит и физическое присутствие перед другим человеком.",
+        "type": "M",
         "class": {
-            "A": true,
-            "B": false,
+            "A": false,
+            "B": true,
             "C": false
         },
         "offence": {
@@ -2853,8 +1777,8 @@
             "3": false
         },
         "time": {
-            "days": 3,
-            "hours": 0,
+            "days": 0,
+            "hours": 3,
             "min": 0
         },
         "maxtime": {
@@ -2883,15 +1807,15 @@
             "3": 0
         },
         "bail": {
-            "auto": 2,
-            "cost": 1500000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "206": {
         "id": "206",
-        "charge": "Assault",
-        "definition": "Any person who unlawfully attempts to commit a violent injury on the person of another or attempts to put another person they are in the presence of in reasonable fear of physical injury.",
+        "charge": "Неумышленное убийство",
+        "definition": "Любое лицо (а), участвующее в непреднамеренном убийстве другого человека, с или без ссоры или накала страсти.",
         "type": "M",
         "class": {
             "A": false,
@@ -2904,12 +1828,12 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 3,
+            "days": 3,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 2,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -2934,15 +1858,15 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 200000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "207": {
         "id": "207",
-        "charge": "Assault with a Deadly Weapon",
-        "definition": "a) Any person who unlawfully attempts to commit a violent injury on the person of another while in possession of a deadly weapon or instrument other than a firearm.\n\nb) Any person who unlawfully attempts to commit a violent injury on the person of another while in possession of a firearm.",
+        "charge": "Похищение",
+        "definition": "Лицо, которое насильственно или любым другим способом внушает страх, крадет, задерживает, похищает или незаконно арестовывает любое лицо против их воли. Классифицируется как похищение независимо от успешного завершения.",
         "type": "F",
         "class": {
             "A": false,
@@ -2988,16 +1912,16 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "Check Penal Code for any additional provisions/altered sentencing guidelines"
+        "extra": "N/A"
     },
     "208": {
         "id": "208",
-        "charge": "Battery",
-        "definition": "Any person who engages in willful and unlawful use of physical force upon another individual.",
+        "charge": "Убийство первой степени",
+        "definition": "Любое лицо (а), которое лишает жизни другое лицо, действия преднамеренно и со злым умыслом.\n\nПримечание:\nУбийство совершенное с  помощью разрушающего устройства или взрывчатого вещества, оружия массового уничтожения, бронебойных патронов, яда, пыток или совершенное при совершении или попытке совершения поджога, изнасилования, угона автомобиля, грабежа, кражи со взломом, погрома, похищения, крушения поезда, совершенное посредством выстрела из огнестрельного оружия из транспортного средства, является убийством первой степени.",
         "type": "M",
         "class": {
-            "A": false,
-            "B": true,
+            "A": true,
+            "B": false,
             "C": false
         },
         "offence": {
@@ -3006,12 +1930,12 @@
             "3": false
         },
         "time": {
-            "days": 0,
-            "hours": 7,
+            "days": 14,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 3,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3036,28 +1960,28 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 150000
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A"
+        "extra": "Это будет передано в суд по обязательному требованию в случае убийства персонажа CK.\n Срок указанный в статье применяется только для CK. Если жертва получила PK, то срок составит минимум составит 7 дней."
     },
     "209": {
         "id": "209",
-        "charge": "Aggravated Battery",
-        "definition": "Any person who engages in willful and unlawful use of physical force upon another individual, resulting in serious bodily injury.",
+        "charge": "Убийство второй степени",
+        "definition": "Любое лицо (а), которое лишает жизни другое лицо, действуя со злым умыслом, но при этом не намереваясь причинить смерть (пример: игра в русскую рулетку). \n\nПримечание:\nПреднамеренность отсутствует, и убийство не является преднамеренным. Считается, что вместо этого обвиняемый действует крайне безрассудно, то есть таким образом, что, как известно любому разумному человеку, может привести к смерти. ",
         "type": "F",
         "class": {
-            "A": false,
+            "A": true,
             "B": true,
             "C": false
         },
         "offence": {
-            "1": true,
-            "2": false,
+            "1": false,
+            "2": true,
             "3": false
         },
         "time": {
-            "days": 2,
+            "days": 10,
             "hours": 0,
             "min": 0
         },
@@ -3090,12 +2014,12 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "N/A"
+        "extra": "Это будет передано в суд по обязательному требованию в случае убийства персонажа CK.\n Срок указанный в статье применяется только для CK. Если жертва получила PK, то срок составит минимум составит 5 дней."
     },
     "210": {
         "id": "210",
-        "charge": "Kidnapping",
-        "definition": "Any person who forcibly, or by any other means of instilling fear, steals or takes, or holds, detains, or unlawfully arrests any person with the intent to carry that person into another country, state, or county, or into another part of the same county.",
+        "charge": "Нападение с отягчающими обстоятельствами",
+        "definition": "Любое лицо (а), которое причиняет серьезное телесное повреждение другому лицо в результате нападения или использования смертоносного оружия.",
         "type": "F",
         "class": {
             "A": false,
@@ -3108,7 +2032,7 @@
             "3": false
         },
         "time": {
-            "days": 5,
+            "days": 1,
             "hours": 0,
             "min": 0
         },
@@ -3140,8 +2064,8 @@
     },
     "211": {
         "id": "211",
-        "charge": "Human Trafficking",
-        "definition": "Any person who through coercion, violence, force or other illicit means deprives someone of their personal liberty with the intent to obtain forced labor or services from them or with the intent to violate San Andreas’ pimping and pandering laws.",
+        "charge": "Пытки",
+        "definition": "Любое лицо (лица), действующее с намерением причинить жестокую или сильную боль и страдания с целью мести, вымогательства, убеждения или с какой-либо садистской целью причиняя большие телесные повреждения другому лицу.",
         "type": "F",
         "class": {
             "A": true,
@@ -3154,58 +2078,7 @@
             "3": false
         },
         "time": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 9,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "212": {
-        "id": "212",
-        "charge": "Unlawful Imprisonment",
-        "definition": "Any person who forcibly, or by any other means of instilling fear, holds, detains, restrains or unlawfully arrests another person.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 5,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3230,20 +2103,20 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 500000
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A"
+        "extra": "Это будет передано в суд по обязательному требованию."
     },
-    "213": {
-        "id": "213",
-        "charge": "Torture",
-        "definition": "Any person who with the intent to cause cruel or extreme pain and suffering for the purpose of revenge, extortion, persuasion, or for any sadistic purpose, inflicts great bodily injury on another.",
+    "212": {
+        "id": "212",
+        "charge": "Вымогательство",
+        "definition": "Любое лицо (а), которое участвовало в деятельности, направленной на получение товаров, денег или услуг с помощью принуждения, насилия или других незаконных средств с целью получения личной выгоды.",
         "type": "F",
         "class": {
-            "A": true,
+            "A": false,
             "B": false,
-            "C": false
+            "C": true
         },
         "offence": {
             "1": true,
@@ -3251,7 +2124,58 @@
             "3": false
         },
         "time": {
-            "days": 6,
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "213": {
+        "id": "213",
+        "charge": "Рэкетирование",
+        "definition": "Любое лицо (а), состоящее или связанное с преступной организацией в соответствии с предписаниями местных или национальных правоохранительных органов, с доказательствами участия организации в попытках вымогательства, взяточничества, убийства или другой преступной деятельности.",
+        "type": "F",
+        "class": {
+            "A": true,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": false,
+            "2": true,
+            "3": false
+        },
+        "time": {
+            "days": 3,
             "hours": 0,
             "min": 0
         },
@@ -3283,12 +2207,12 @@
     },
     "214": {
         "id": "214",
-        "charge": "Criminal Threats",
-        "definition": "Any person who willfully threatens to commit a crime which would reasonably be believed to result in death or great bodily injury to another person and is made verbally, in writing, or by means of an electronic communication device, while not physically present of that individual.",
+        "charge": "Подделка документов",
+        "definition": "Любое лицо (а), которое сознательно изменяет, создает или использует письменный документ с намерением совершить мошенничество.",
         "type": "M",
         "class": {
-            "A": true,
-            "B": false,
+            "A": false,
+            "B": true,
             "C": false
         },
         "offence": {
@@ -3298,11 +2222,11 @@
         },
         "time": {
             "days": 0,
-            "hours": 3,
+            "hours": 6,
             "min": 0
         },
         "maxtime": {
-            "days": 1,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3327,20 +2251,20 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 500000
+            "auto": false,
+            "cost": 0
         },
-        "extra": ""
+        "extra": "N/A"
     },
     "215": {
         "id": "215",
-        "charge": "Robbery",
-        "definition": "Any person involved in the unlawful taking of personal property in the possession of another, from his person, or immediate presence, and against his will by means of force or fear.",
+        "charge": "Мошенничество",
+        "definition": "(a) Любое лицо, умышленно вводящее другое лицо в заблуждение ложными фактами с целью получения его денег, имущества или иной материальной выгоды является проступком.\n(b) Любое лицо, совершающее деяние, описанное в пункте (a), если такое влечет за собой потерю 10 000 долларов США или более, является тяжким преступлением.",
         "type": "F",
         "class": {
             "A": false,
             "B": true,
-            "C": false
+            "C": true
         },
         "offence": {
             "1": true,
@@ -3348,12 +2272,12 @@
             "3": false
         },
         "time": {
-            "days": 2,
-            "hours": 0,
+            "days": 0,
+            "hours": 6,
             "min": 0
         },
         "maxtime": {
-            "days": 4,
+            "days": 2,
             "hours": 0,
             "min": 0
         },
@@ -3385,12 +2309,12 @@
     },
     "216": {
         "id": "216",
-        "charge": "Armed Robbery",
-        "definition": "Any person who unlawfully takes another’s property from his person or immediate possession when accomplished by force or fear with the use of a dangerous instrument or weapon of any type, improvised or not.",
+        "charge": "Торговля людьми",
+        "definition": "Любое лицо (а), которое насильственно или любым другим способом внушает страх, крадет, задерживает, задерживает или незаконно арестовывает двух или более человек против их воли.",
         "type": "F",
         "class": {
-            "A": false,
-            "B": true,
+            "A": true,
+            "B": false,
             "C": false
         },
         "offence": {
@@ -3399,12 +2323,12 @@
             "3": false
         },
         "time": {
-            "days": 4,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 8,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3432,17 +2356,17 @@
             "auto": false,
             "cost": 0
         },
-        "extra": "N/A"
+        "extra": "Это будет передано в суд по обязательному требованию."
     },
     "217": {
         "id": "217",
-        "charge": "Rape",
-        "definition": "Any person who engages in an act of sexual intercourse accomplished without the consent of the involved participant(s), one or more parties.",
+        "charge": "Грабеж",
+        "definition": "Любое лицо, которое с применением силы или запугивания незаконно завладевает личным имуществом другого лица, если это имущество в данный момент находится во владении этого лица.",
         "type": "F",
         "class": {
             "A": false,
-            "B": false,
-            "C": true
+            "B": true,
+            "C": false
         },
         "offence": {
             "1": true,
@@ -3487,12 +2411,12 @@
     },
     "218": {
         "id": "218",
-        "charge": "Statutory Rape",
-        "definition": "Any person who engages in an act of consensual sexual intercourse accomplished with a person who is a minor under the age of 18 years.",
+        "charge": "Вооруженный грабеж",
+        "definition": "Любое лицо, которое с применением силы или запугивания, применяя при этом оружие любого типа, включая имитацию оружия, незаконно завладевает личным имуществом другого лица, если это имущество в данный момент находится во владении этого лица.",
         "type": "F",
         "class": {
-            "A": true,
-            "B": false,
+            "A": false,
+            "B": true,
             "C": false
         },
         "offence": {
@@ -3501,12 +2425,12 @@
             "3": false
         },
         "time": {
-            "days": 4,
+            "days": 3,
             "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 4,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3589,13 +2513,13 @@
     },
     "220": {
         "id": "220",
-        "charge": "Harassment",
-        "definition": "Any person who engages in a course of conduct, or repeatedly commits acts directed at a specific person, which alarm or seriously alarm the person, and that serve no legitimate purpose after receiving verbal or written communication to cease. If written or verbal communication is not viable, criminal intent must be established.",
-        "type": "M",
+        "charge": "Сексуальное домогательство",
+        "definition": "Любое лицо (а), совершающее насилие с целью сексуального возбуждения, сексуального удовлетворения или сексуального насилия, также известного как нежелательное прикосновение.",
+        "type": "F",
         "class": {
             "A": false,
-            "B": false,
-            "C": true
+            "B": true,
+            "C": false
         },
         "offence": {
             "1": true,
@@ -3604,11 +2528,11 @@
         },
         "time": {
             "days": 0,
-            "hours": 6,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 2,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -3633,10 +2557,10 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 50000
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A"
+        "extra": "Это будет передано в суд по обязательному требованию."
     },
     "221": {
         "id": "221",
@@ -3691,8 +2615,161 @@
     },
     "222": {
         "id": "222",
-        "charge": "Assault with Caustic Chemicals",
-        "definition": "Any person who willfully and maliciously places or throws, or causes to be placed or thrown, upon the person of another, any vitriol, corrosive acid, flammable substance, or caustic chemical of any nature, with the intent to injure the flesh or disfigure the body of that person.",
+        "charge": "Слежка / сталкинг",
+        "definition": "Любое лицо, которое незаконно, умышленно, злонамеренно и неоднократно преследует или умышленно и злонамеренно преследует другое лицо с намерением вызвать у этого человека разумный страх за его или ее безопасность или безопасность его или ее ближайших родственников.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "222.1": {
+        "id": "222.1",
+        "charge": "Незаконное использование электронного устройства слежения",
+        "definition": "Любое лицо, использующее электронное устройство слежения для определения местонахождения или передвижения человека либо его имущества без его согласия, не являющееся правоохранителем и не обладающее на то специальным разрешением суда.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "222.2": {
+        "id": "222.2",
+        "charge": "Незаконное прослушивание",
+        "definition": "Любое лицо, прослушивающее и/или записывающее конфиденциальное сообщение, включая частный разговор или телефонный звонок, электронными средствами без согласия всех участников разговора, не являющееся правоохранителем и не обладающее на то специальным разрешением суда.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "223": {
+        "id": "223",
+        "charge": "Слежка / сталкинг",
+        "definition": "Любое лицо, вступившее в половой акт по обоюдному согласию с лицом или проявляющее сексуальное влечение к лицам, не достигших 18 лет или использующее компьютер или средства двухсторонней связи с целью совращения.",
         "type": "F",
         "class": {
             "A": false,
@@ -3705,12 +2782,318 @@
             "3": false
         },
         "time": {
-            "days": 4,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 8,
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "Это будет передано в суд по обязательному требованию."
+    },
+    "224": {
+        "id": "224",
+        "charge": "Самосуд",
+        "definition": "Любое лицо (а), участвовавшее в акте «взятия закона в свои руки» или «самосуда», действуя исходя из своих собственных намерений, чтобы подчинить другого гражданского лица, нарушившего закон, в то время как в настоящее время он не является сотрудником по охране правопорядка. Не распространяется на гражданский арест или помощь правоохранителю во время ареста.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 5000,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "225": {
+        "id": "225",
+        "charge": "Побег после законного ареста",
+        "definition": "Любое лицо, сбегающее из тюрьмы или содержания под стражей после законного ареста или приговора суда, виновно в проступке.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 5,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "226": {
+        "id": "226",
+        "charge": "Приставание / преследование / харассмент",
+        "definition": "Любое лицо, чье поведение, направленное на конкретного человека, которое серьезно тревожит, раздражает, терзает или терроризирует его.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "222": {
+        "id": "222",
+        "charge": "Слежка / сталкинг",
+        "definition": "Любое лицо, которое незаконно, умышленно, злонамеренно и неоднократно преследует или умышленно и злонамеренно преследует другое лицо с намерением вызвать у этого человека разумный страх за его или ее безопасность или безопасность его или ее ближайших родственников.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "222": {
+        "id": "222",
+        "charge": "Слежка / сталкинг",
+        "definition": "Любое лицо, которое незаконно, умышленно, злонамеренно и неоднократно преследует или умышленно и злонамеренно преследует другое лицо с намерением вызвать у этого человека разумный страх за его или ее безопасность или безопасность его или ее ближайших родственников.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "222": {
+        "id": "222",
+        "charge": "Слежка / сталкинг",
+        "definition": "Любое лицо, которое незаконно, умышленно, злонамеренно и неоднократно преследует или умышленно и злонамеренно преследует другое лицо с намерением вызвать у этого человека разумный страх за его или ее безопасность или безопасность его или ее ближайших родственников.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -4293,312 +3676,6 @@
         "bail": {
             "auto": true,
             "cost": 100000
-        },
-        "extra": "N/A"
-    },
-    "312M": {
-        "id": "312M",
-        "charge": "Embezzlement",
-        "definition": "Any person who when there was a trust or fiduciary relationship between him or her and a private organization or State or local government agency:\n\na) He or she unlawfully takes such property into their possession or care by virtue of employment.\n\nb) He or she unlawfully engages in a systematic course of conduct constituting a fraudulent conversion or appropriation of property to his/her own use.\n\nc) He or she acts with the intent to deprive the owner of the use of this property.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 3500000
-        },
-        "extra": "N/A"
-    },
-    "312F": {
-        "id": "312F",
-        "charge": "Felony Embezzlement",
-        "definition": "Any person who when there was a trust or fiduciary relationship between him or her and a private organization or State or local government agency:\n\na) He or she unlawfully takes such property into their possession or care by virtue of employment.\n\nb) He or she unlawfully engages in a systematic course of conduct constituting a fraudulent conversion or appropriation of property to his/her own use.\n\nc) He or she acts with the intent to deprive the owner of the use of this property.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": 2,
-            "cost": 35000
-        },
-        "extra": "N/A"
-    },
-    "313M": {
-        "id": "313M",
-        "charge": "Vehicle Registration Theft",
-        "definition": "a) Any person who steals or attempts to steal, or who takes another person's vehicle identification plate.\n\nb) Any person operating a motor vehicle at any time when the vehicle displays another person's vehicle identification plate.\n\nc) Any person who willfully flees or otherwise attempts to elude a pursuing peace officer following a violation of provision (b) of this offense.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 3,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "313F": {
-        "id": "313F",
-        "charge": "Vehicle Registration Theft",
-        "definition": "a) Any person who steals or attempts to steal, or who takes another person's vehicle identification plate.\n\nb) Any person operating a motor vehicle at any time when the vehicle displays another person's vehicle identification plate.\n\nc) Any person who willfully flees or otherwise attempts to elude a pursuing peace officer following a violation of provision (b) of this offense.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 3
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "314M": {
-        "id": "314M",
-        "charge": "Vandalism of Prison Property (Misdemeanor)",
-        "definition": "Any person who defaces, damages, or destroys any state prison or other institution under the jurisdiction of the Department of Corrections, or any county jail, or any city jail, or any other institution or place where prisoners or inmates are being held under the custody of any law enforcement officers or peace officers or probation officers, or any property belonging to these institutions.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "314F": {
-        "id": "314F",
-        "charge": "Vandalism of Prison Property (Felony)",
-        "definition": "Any person who defaces, damages, or destroys any state prison or other institution under the jurisdiction of the Department of Corrections, or any county jail, or any city jail, or any other institution or place where prisoners or inmates are being held under the custody of any law enforcement officers or peace officers or probation officers, or any property belonging to these institutions.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
         },
         "extra": "N/A"
     },
@@ -5938,753 +5015,6 @@
             "3": 3
         },
         "extra": "N/A"
-    },
-    "429": {
-        "id": "429",
-        "charge": "Tinted Windows",
-        "definition": "Any person operating a vehicle and unlawfully uses tints, or anonymizing shades on his or her windows leading to an individual driving with tinted windows unable to be identified while driving, unless listed exempt under standing laws.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": true,
-            "3": true
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 2500,
-            "3": 5000
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "extra": "Tints of Level 1 and 2 are considered illegal unless exempted"
-    },
-    "430": {
-        "id": "430",
-        "charge": "Impaired Driving [DUI]",
-        "definition": "Any person who drives any vehicle upon any highway, roadway, or public vehicular area within this state:\n(a) while under the influence of an impairing substance;\n(b) after having consumed sufficient alcohol that they have, at any relevant time after driving, an alcohol concentration of 0.08 or more; or\n(c) with any amount of a Schedule I controlled substance, as listed in the Drug Enforcement & Prevention Act of 2020 (DEPA), in their system or its metabolites in their blood or urine.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": true,
-            "3": true
-        },
-        "time": {
-            "days": 0,
-            "hours": 3,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 5000,
-            "2": 8000,
-            "3": 12000
-        },
-        "impound": {
-            "1": 3,
-            "2": 7,
-            "3": 10
-        },
-        "suspension": {
-            "1": 3,
-            "2": 7,
-            "3": 10
-        },
-        "bail": {
-            "auto": true,
-            "cost": 200000
-        },
-        "extra": "Third offense upgraded to Felony [2]",
-        "code_enhancement": "STREETS"
-    },
-    "431": {
-        "id": "431",
-        "charge": "Refusal to Submit to Testing",
-        "definition": "Any person who, having been requested by a peace officer to provide a breath sample pursuant to a lawful § 430 arrest, or to provide a blood sample or other bodily fluid sample pursuant to a search warrant or exigent circumstances, refuses or fails to comply with the request.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": true,
-            "3": true
-        },
-        "time": {
-            "days": 0,
-            "hours": 3,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 5000,
-            "2": 8000,
-            "3": 12000
-        },
-        "impound": {
-            "1": 3,
-            "2": 7,
-            "3": 10
-        },
-        "suspension": {
-            "1": 3,
-            "2": 7,
-            "3": 10
-        },
-        "bail": {
-            "auto": true,
-            "cost": 25000
-        },
-        "extra": "Third offense upgraded to Felony [2]"
-    },
-    "432M": {
-        "id": "432M",
-        "charge": "Motor Vehicle Contest (Misdemeanor)",
-        "definition": "(a) Any person performing an unlicensed or undesignated race or competition on city, county, or state paved roads or courses that incites the potential for other violations or demonstrates a potential for hazard.\n\n(b) Any person who willfully flees or otherwise attempts to elude a pursuing peace officer following a violation of provision (a) of this offense.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 1,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 5500,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 7,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 7,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 500000
-        },
-        "extra": "N/A",
-        "code_enhancement": "STREETS"
-    },
-    "432F": {
-        "id": "432F",
-        "charge": "Motor Vehicle Contest (Felony)",
-        "definition": "(a) Any person performing an unlicensed or undesignated race or competition on city, county, or state paved roads or courses that incites the potential for other violations or demonstrates a potential for hazard.\n\n(b) Any person who willfully flees or otherwise attempts to elude a pursuing peace officer following a violation of provision (a) of this offense.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 5
-        },
-        "fine": {
-            "1": 15000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 10,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 7,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "Evading charged additionally. For fleeing from officers after street race.",
-        "code_enhancement": "STREETS"
-    },
-    "433": {
-        "id": "433",
-        "charge": "Jaywalking",
-        "definition": "Any person who intentionally or recklessly crosses a roadway as a pedestrian in a manner that:\n\na) Creates a foreseeable risk of obstructing the flow of traffic; or\n\nb) Otherwise poses a hazard to other road users.\n\nPedestrians must use designated crosswalks where available. Crossing outside of a crosswalk between intersections, or against pedestrian signals, shall constitute jaywalking.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1500,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "extra": "N/A"
-    },
-    "434": {
-        "id": "434",
-        "charge": "Possession of Open Container",
-        "definition": "Any person who holds possession of open containers of alcoholic beverages or any containers carrying performance-altering substances while operating a vehicle.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "extra": "N/A"
-    },
-    "435": {
-        "id": "435",
-        "charge": "Failure to Wear a Seatbelt/Safety Equipment",
-        "definition": "Any person who whilst operating a motor vehicle, does not properly secure themselves in with the safety belt, or adhere to traffic safety standards when operating vehicles such as motorcycles, ATV's, and other Wheeled single-track vehicles without a helmet or other proper safety equipment for proper operation.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 1000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "extra": "N/A"
-    },
-    "436": {
-        "id": "436",
-        "charge": "Operation of Unsafe Motor Vehicle",
-        "definition": "Any person who drives or moves a motor vehicle, cycle or combination of vehicles on any public road, which is in an unsafe condition as to endanger any person or property, suffers substantial structural damage, or is not equipped with lights, brakes, steering and other equipment in proper condition.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 2000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 2,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "extra": "N/A"
-    },
-    "437": {
-        "id": "437",
-        "charge": "Operating an Aircraft Without A License",
-        "definition": "Any person(s) who operates any aircraft without the appropriate license.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 5,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 500000
-        },
-        "extra": "N/A"
-    },
-    "438": {
-        "id": "438",
-        "charge": "Reckless Operation Of An Aircraft",
-        "definition": "Any person(s) who endangers life through the operation of their aircraft, such as flying at low altitude in an urban or suburban area.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 3
-        },
-        "fine": {
-            "1": 50000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 3,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "N/A"
-    },
-    "439": {
-        "id": "439",
-        "charge": "Failure To Adhere To ATC",
-        "definition": "Any person(s) who, whilst operating an aircraft, fails to adhere to ATC protocol or commands.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 1,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 50000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 200000
-        },
-        "extra": "(( Charge is suspended. DO NOT charge this on any person. ))"
-    },
-    "440": {
-        "id": "440",
-        "charge": "Aerial Evasion",
-        "definition": "Any person(s) who evades any law enforcement agency via an aircraft, whether as a pilot or passenger.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 100000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 7,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": 2,
-            "cost": 500000
-        },
-        "extra": "N/A"
-    },
-    "441": {
-        "id": "441",
-        "charge": "Negligent Operation of Bicycle",
-        "definition": "Any person(s) operating a bicycle in a manner that will likely cause property damage or harm to other road users or pedestrians.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 2500,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "extra": "N/A"
-    },
-    "442": {
-        "id": "442",
-        "charge": "Operation of an Unauthorized Vehicle on Vespucci Beach",
-        "definition": "Any person(s) engaging in the unlawful operation or usage of a vehicle directly in violation of the Vespucci Beach Motor Vehicle Regulations Act.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": true,
-            "3": true
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 2500,
-            "2": 5000,
-            "3": 7500
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 3
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 3
-        },
-        "extra": "N/A"
-    },
-    "443": {
-        "id": "443",
-        "charge": "Street Takeover",
-        "definition": "Any person who organizes, promotes, facilitates, or actively participates in a coordinated effort to obstruct or take control of a highway, roadway, parking lot, or any other area—whether publicly or privately owned—without explicit consent from the property owner, for the purpose of enabling or engaging in:\n(a) unauthorized motor vehicle exhibitions, including but not limited to races, drag races, burnouts, doughnuts, drifting, wheelies, or other stunt driving; or\n(b) any gathering intended to interfere with traffic flow or pose a significant public safety risk through the reckless operation of motor vehicles.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 5
-        },
-        "fine": {
-            "1": 20000,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 7,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 7,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 350000
-        },
-        "extra": "14 day impound for evading, plus Evading a Peace Officer charge added separately",
-        "code_enhancement": "STREETS"
     },
     "501": {
         "id": "501",
@@ -8466,464 +6796,5 @@
             "cost": 0
         },
         "extra": "N/A"
-    },
-    "707": {
-        "id": "707",
-        "charge": "Discharging A Firearm in Public",
-        "definition": "Any person who intentionally discharges a firearm into any building, vehicle, or in a public or other populated area, causing severe endangerment, actual physical harm, or risk of physical harm to another person.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 8,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "708": {
-        "id": "708",
-        "charge": "Discharging A Firearm From A Motor Vehicle",
-        "definition": "a) Any driver or owner of any vehicle who knowingly permits any other person to discharge any firearm from the vehicle.\n\nb) Any person who willfully and maliciously discharges a firearm from a motor vehicle at another person other than an occupant of a motor vehicle",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 5,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 7,
-            "B": 5,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "709": {
-        "id": "709",
-        "charge": "Reckless Handling of Firearms",
-        "definition": "a) Any person who handles any firearm in a grossly negligent manner so as to endanger the life, limb or property of any person.\n\nb) Any person who carries or transports a firearm while under the influence of marijuana, narcotic drug, mind altering drug, any other controlled substance, or exceeding 0.08% BAC.\n\nc) Any person whose license to hunt and trap, or whose privilege to hunt and trap while in possession of a firearm, has been revoked, thereafter hunts or traps while in possession of a firearm.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": true,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "N/A"
-    },
-    "710": {
-        "id": "710",
-        "charge": "SHAFT Code Violation",
-        "definition": "Any person who fails to abide by firearm regulations as endorsed by the State Handling and Firearms Training Act given by the municipal authority.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 3,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 100000
-        },
-        "extra": "N/A"
-    },
-    "711": {
-        "id": "711",
-        "charge": "Possession of a Firearm by Convicted Felon",
-        "definition": "Any person who carries or possesses a firearm on their person, vehicle, place of business, or another facility they own or are directly managing while being previously convicted of a felony charge under the laws of the United States or San Andreas is guilty of a Felony.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 5
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 800000
-        },
-        "extra": "N/A"
-    },
-    "712": {
-        "id": "712",
-        "charge": "Unlawful Possession of Ammunition",
-        "definition": "Any person who stores or possesses firearm ammunition on their person, vehicle, place of business or another facility they own or are directly managing while being previously convicted of a felony charge under the laws of the United States or San Andreas is guilty of a Felony.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 200000
-        },
-        "extra": "N/A"
-    },
-    "713": {
-        "id": "713",
-        "charge": "Possession Of Deadly Weapons In A Correctional Facility",
-        "definition": "(a) Any person, who knowingly brings or sends into, or knowingly assists in bringing into, or sending into, any detention facility as defined in the DCRA Act of 2023, any firearms, deadly weapons, explosives, tear gas or tear gas weapons, and any person who, while lawfully confined in a jail or county road camp possesses therein any firearm, deadly weapon, explosive, tear gas or tear gas weapon, is guilty of a felony.\n\n(b) Subdivision (a) shall not apply when otherwise authorized by law, or when authorized by the person in charge of the prison or other institution referred to in this section or by an officer of the institution empowered by the person in charge of the institution to give such authorization.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 7,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 9,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": 2,
-            "cost": 500000
-        },
-        "extra": "N/A"
-    },
-    "713M": {
-        "id": "713M",
-        "charge": "Possession Of A Weapon on School Grounds (Misdemeanor)",
-        "definition": "(b) Any person who brings or possesses a dirk, dagger, ice pick, knuckledusters, item or weapon having a blade, folding knife with a blade that locks into place, razor with an unguarded blade, taser, or stun gun, any instrument that expels a metallic projectile, such as a BB or a pellet, through the force of air pressure, CO2 pressure, or spring action, or any spot marker on the grounds of, or within, a public or private elementary, secondary, or post secondary school, or in a public or private university or college, or its zones.\n\n(d) This section does not apply to any person who brings or possesses a weapon on the grounds of, or within, a public or private elementary, secondary, or post secondary school, or in a public or private university or college, with the written permission of its board of regents, school board, chancellor or principle.\n\n(e) This section shall not be construed to prohibit a person who is otherwise authorized by law to possess a firearm from transporting or carrying a firearm on the grounds of a public or private school, or a public or private university or college, if the firearm is contained within a locked container or within the trunk of a motor vehicle.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 3,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "713F": {
-        "id": "713F",
-        "charge": "Possession Of A Weapon on School Grounds (Felony)",
-        "definition": "(a) Any person who brings or possesses a firearm on the grounds of, or within, a public or private elementary, secondary, or post secondary school, or in a public or private university or college, or its zones.\n\n(c) Any person who is holding, drawing or otherwise threatning any individual with a dirk, dagger, ice pick, knuckledusters, item or weapon having a blade, folding knife with a blade that locks into place, razor with an unguarded blade, taser, or stun gun, any instrument that expels a metallic projectile, such as a BB or a pellet, through the force of air pressure, CO2 pressure, or spring action, or any spot marker on the grounds of, or within, a public or private elementary, secondary, or post secondary school, or in a public or private university or college, or its zones.\n\n(d) This section does not apply to any person who brings or possesses a weapon on the grounds of, or within, a public or private elementary, secondary, or post secondary school, or in a public or private university or college, with the written permission of its board of regents, school board, chancellor or principle.\n\n(e) This section shall not be construed to prohibit a person who is otherwise authorized by law to possess a firearm from transporting or carrying a firearm on the grounds of a public or private school, or a public or private university or college, if the firearm is contained within a locked container or within the trunk of a motor vehicle.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": false,
-            "cost": 0
-        },
-        "extra": "Check Penal Code for any additional provisions/altered sentencing guidelines."
     }
 }
