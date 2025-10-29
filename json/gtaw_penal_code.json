@@ -4266,23 +4266,23 @@
     },
     "413": {
         "id": "413",
-        "charge": "Failure to Yield at Intersection",
-        "definition": "Any person who does not yield the right of way when approaching an intersection in the following situations:\n(a) to any vehicle that has already entered the intersection or is lawfully proceeding through it; or\n(b) to any vehicle approaching from another direction that poses an immediate hazard.",
-        "type": "I",
+        "charge": "Соревнование на автотранспортных средствах / стритрейсинг",
+        "definition": "Любое лицо, участвующее в нелицензированной гонке на асфальтированных дорогах или трассах города, округа или штата, которые провоцируют возможность других нарушений или демонстрируют потенциальную опасность. ",
+        "type": "M",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
             "hours": 0,
-            "min": 0
+            "min": 45
         },
         "points": {
             "A": 0,
@@ -4290,17 +4290,17 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
+            "1": 5000,
             "2": 5000,
-            "3": 7500
+            "3": 5000
         },
         "impound": {
-            "1": 0,
+            "1": 7,
             "2": 0,
             "3": 2
         },
         "suspension": {
-            "1": 0,
+            "1": 7,
             "2": 0,
             "3": 3
         },
@@ -4308,12 +4308,12 @@
     },
     "414": {
         "id": "414",
-        "charge": "Failure to Yield Entering Roadway",
-        "definition": "Any person who does not yield the right of way when entering a roadway from a private road, driveway, or other non-roadway area to all approaching vehicles on the roadway.",
-        "type": "I",
+        "charge": "Преступно опасное вождение",
+        "definition": "Любое лицо, которое управляет транспортным средством с умышленным пренебрежением безопасностью других лиц, собственной безопасности или безопасности имущества и при этом причиняет серьезные травмы, за исключением смерти (например, перелом(ы), потеря сознания, сотрясение мозга)",
+        "type": "F",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
@@ -4322,7 +4322,7 @@
             "3": true
         },
         "time": {
-            "days": 0,
+            "days": 1,
             "hours": 0,
             "min": 0
         },
@@ -4332,27 +4332,27 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "1": 10000,
+            "2": 10000,
+            "3": 10000
         },
         "impound": {
-            "1": 0,
-            "2": 0,
+            "1": 2,
+            "2": 2,
             "3": 2
         },
         "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 3
+            "1": 7,
+            "2": 7,
+            "3": 7
         },
         "extra": "N/A"
     },
     "415": {
         "id": "415",
-        "charge": "Failure to Yield for Crosswalk",
-        "definition": "Any person who does not yield the right of way to pedestrians who are within or entering a crosswalk. The driver must stop or slow down, as necessary, to ensure pedestrians can cross safely.",
-        "type": "I",
+        "charge": "Вождение с отсутствующей лицензией в любом статусе",
+        "definition": "Любое лицо, управляющее транспортным средством в любое время, когда права на управление транспортным средством /отсутствуют/. Когда используется в отношении водительских прав, /отсутствие/ означает, что данное лицо никогда не получало водительские права.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -4366,7 +4366,7 @@
         "time": {
             "days": 0,
             "hours": 0,
-            "min": 0
+            "min": 60
         },
         "points": {
             "A": 0,
@@ -4374,26 +4374,26 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
+            "1": 1500,
             "2": 5000,
-            "3": 7500
+            "3": 5000
         },
         "impound": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 2
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
-        "extra": "N/A"
+        "extra": "Примечание. Аренда  в аэропорту освобождает от лицензионных требований и действуют в соответствии со статусом временного разрешения согласно выдаче агентства. "
     },
     "416": {
         "id": "416",
-        "charge": "Failure to Yield to an Emergency Vehicle",
-        "definition": "Any person who does not yield the right of way in the following situations:\n(a) when an emergency vehicle with flashing lights approaches, the driver must stop in a position parallel to the curb or edge of the road, clear of the intersection, and remain stopped until the emergency vehicle passes; or\n(b) when an emergency vehicle with flashing lights is stopped on a roadway, approaching drivers must move over to the furthest possible lane or edge of the roadway, where applicable, while maintaining safety and legal roadway boundaries, reduce speed, and proceed cautiously.",
+        "charge": "Переход в неположенном месте",
+        "definition": "Любое лицо, которое по неосторожности или намеренно переходит дорогу, создавая предсказуемый риск препятствования движению транспорта или иным образом создает опасность для участников дорожного движения, совершает правонарушение. ",
         "type": "I",
         "class": {
             "A": false,
@@ -4402,8 +4402,8 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
@@ -4417,25 +4417,25 @@
         },
         "fine": {
             "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "2": 2500,
+            "3": 2500
         },
         "impound": {
             "1": 0,
             "2": 0,
-            "3": 2
+            "3": 0
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
         "extra": "N/A"
     },
     "417": {
         "id": "417",
-        "charge": "Improper Lane Entry while Turning",
-        "definition": "Any person who fails to enter the lane closest to their direction of travel when executing a left or right turn at an intersection or roadway junction in a manner that ensures the safe and orderly flow of traffic.",
+        "charge": "Вождение с открытым контейнером",
+        "definition": "a) Любое лицо не должно иметь при себе в непосредственном окружении, во время управления или нахождения внутри транспортного средства на дороге или парковке общего пользования бутылку, банку или другой сосуд, содержащий алкогольный напиток, который был открыт или содержимое которого было частично удалено.\nb) Любое лицо, имеющее при себе при себе в непосредственном окружении, во время управления или нахождения внутри транспортного средства на дороге или парковке общего пользования сосуд, содержащий каннабис (марихуану) или продукты каннабиса, который был открыт или у которого была нарушена пломба, или свободный цветок каннабиса без контейнера, виновно в нарушении, за исключением случаев, когда лицо - квалифицированный пациент и:\nЛицо имеет при себе действующую идентификационную карту или рекомендацию врача.\nКаннабис или продукт каннабиса находится в запечатанном, запечатанном или закрытом контейнере или сосуде.",
         "type": "I",
         "class": {
             "A": false,
@@ -4444,8 +4444,8 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
@@ -4459,25 +4459,25 @@
         },
         "fine": {
             "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
             "2": 0,
-            "3": 2
+            "3": 0
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
         "extra": "N/A"
     },
     "418": {
         "id": "418",
-        "charge": "Prohibited Parking",
-        "definition": "Any person who parks a vehicle in violation of the Parking Definitions Act of 2021, including but not limited to:\n(a) blocking lanes, driveways, alleyways, parking lots, or railroad tracks.\n(b) in a crosswalk, sidewalk, median, tunnel, bridge, or against traffic.\n(c) against a red curb (except where permitted).\n(d) on a freeway shoulder (except in emergencies).\n(e) within 5 feet of a fire hydrant.\n(f) at a helipad or aircraft zone (in a non-aerial vehicle).\n(g) in a way that takes up multiple parking spaces.\n(h) more than two motorcycles in a single parking space (unless designated).\n(i) in a handicap space without a permit.\n(j) a non-electric vehicle in an EV charging space.\n\nPrivate property owners may regulate parking and remove unauthorized vehicles.\n\nState & municipal agencies control adjacent parking bays and may restrict access for official use.\nNon-business parking bays remain open to public use",
+        "charge": "Отказ пристегнуться ремнем безопасности / средствами безопасности",
+        "definition": "Любое лицо (лица), управляющее транспортным средством, не пристегивается должным образом ремнем безопасности или должным образом не соблюдает стандарты безопасности дорожного движения при управлении транспортными средствами, такими как велосипеды, квадроциклы и т. д. Без шлема или другого соответствующего защитного оборудования для безопасного передвижения.  ",
         "type": "I",
         "class": {
             "A": false,
@@ -4486,8 +4486,8 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
@@ -4501,8 +4501,8 @@
         },
         "fine": {
             "1": 1000,
-            "2": 2500,
-            "3": 5000
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
@@ -4514,13 +4514,13 @@
             "2": 0,
             "3": 0
         },
-        "extra": "Vehicles obstructing traffic or imposing risk may be impounded for 1 Day."
+        "extra": "N/A"
     },
     "419": {
         "id": "419",
-        "charge": "Reckless Driving",
-        "definition": "Any person who operates a vehicle in a manner that demonstrates a willful or reckless disregard for the safety of persons or property, creating a foreseeable risk of property damage or minor bodily injury, but not resulting in serious bodily harm or death.",
-        "type": "M",
+        "charge": "Эксплуатация небезопасного транспортного средства / Использование нелегальных модификаций",
+        "definition": "а) Любое лицо, управляющее транспортным средством или велосипедом со значительным структурным повреждением или несоблюдение надлежащих требований к вождению, таких как движение без фар в тёмное время суток c 20:30 [8:30 PM] до 6:30 [6:30 AM] или условиях плохой видимости или пренебрежение плановым техническим обслуживанием.\nb) Любое лицо, которое управляет ТС может попадать под данные квалификации нарушения, а именно: отсутствие переднего или заднего бампера, наличием декоративных огней вокруг машины (в темное время суток), которые могут отвлекать от дороги.",
+        "type": "I",
         "class": {
             "A": false,
             "B": false,
@@ -4533,11 +4533,11 @@
         },
         "time": {
             "days": 0,
-            "hours": 1,
+            "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 1,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -4552,29 +4552,29 @@
             "3": 0
         },
         "impound": {
-            "1": 3,
+            "1": 2,
             "2": 0,
             "3": 0
         },
         "suspension": {
-            "1": 3,
+            "1": 0,
             "2": 0,
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 100000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
     "420": {
         "id": "420",
-        "charge": "Vehicular Endangerment",
-        "definition": "Any person who operates a vehicle in a manner that demonstrates a willful or reckless disregard for the safety of persons or property and, as a result, cause serious bodily harm or death to another person.",
-        "type": "F",
+        "charge": "Нарушение регистрации транспортного средства",
+        "definition": "a) Незарегистрированным транспортным средством считается то средство, которое не было постановлено на учёт в DMV в течение 4 дней после приобретения данного транспорта, либо показатель одометра на котором значение превышает 30 миль, а также те транспортные средства, срок регистрации которых истёк и не был продлён в течение 2 дней.\n\nb) Любое лицо, которое управляет или оставляет припаркованным на дороге общего пользования или на внеуличной государственной или частной бесплатной парковке транспортное средство:\n (1) Не зарегистрированное в соответствии с пунктом (a);\n (2) С отсутствующим регистрационным номером;\n  (3) В отношении которого не соблюдено требование о непрерывности страхования, как установлено в пункте (c).\n\nc) Для целей настоящей статьи требование о непрерывности страхования считается нарушенным, если в течение 2 дней после истечения действия предыдущего страхового полиса не вступил в силу новый действующий.",
+        "type": "I",
         "class": {
-            "A": true,
-            "B": true,
+            "A": false,
+            "B": false,
             "C": true
         },
         "offence": {
@@ -4583,27 +4583,27 @@
             "3": false
         },
         "time": {
-            "days": 1,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
         "maxtime": {
-            "days": 5,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
         "points": {
-            "A": 4,
-            "B": 3,
-            "C": 2
+            "A": 0,
+            "B": 0,
+            "C": 0
         },
         "fine": {
-            "1": 10000,
+            "1": 6000,
             "2": 0,
             "3": 0
         },
         "impound": {
-            "1": 0,
+            "1": 2,
             "2": 0,
             "3": 0
         },
@@ -4613,17 +4613,16 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 500000
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A",
-        "code_enhancement": "STREETS"
+        "extra": "Наказание по этой статье также выдается владельцам тех транспортных средств, которые были припаркованы или находились на дорогах общего пользования или внеуличных публичных бесплатных парковках после истечения срока действия регистрации, даже если в этот момент этим транспортным средством никто не управляет."
     },
     "421": {
         "id": "421",
-        "charge": "Drive Without Headlights",
-        "definition": "Any person who drives a vehicle on a roadway without illuminating their vehicle’s lamps between 20:30 (8:30 PM) and 06:30 (6:30 AM) or at any time when visibility is reduced due to weather, road conditions, or other factors.",
-        "type": "I",
+        "charge": "Эксплуатация воздушного судна без лицензии",
+        "definition": "Любое лицо (лица), которое управляет любым воздушным судном без соответствующей лицензии.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -4645,12 +4644,12 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
+            "1": 25000,
             "2": 0,
             "3": 0
         },
         "impound": {
-            "1": 0,
+            "1": 10,
             "2": 0,
             "3": 0
         },
@@ -4659,13 +4658,13 @@
             "2": 0,
             "3": 0
         },
-        "extra": "Between 20:30-06:30 or reduced visibility conditions"
+        "extra": "Полная конфискация судна."
     },
     "422": {
         "id": "422",
-        "charge": "Unsafe Reversing",
-        "definition": "Any person who operates a motor vehicle in reverse in a manner that creates a hazard to other road users, including but not limited to:\n(a) reversing into moving traffic;\n(b) reversing without maintaining proper visibility or control; or\n(c) failing to yield to vehicles or pedestrians when reversing.",
-        "type": "I",
+        "charge": "Безрассудная эксплуатация воздушного судна",
+        "definition": "Любое лицо (лица), которое (-и) подвергает опасности жизнь из-за эксплуатации своего воздушного судна, например, полет на малой высоте в городе или пригороде.  ",
+        "type": "F",
         "class": {
             "A": false,
             "B": false,
@@ -4673,12 +4672,12 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
-            "hours": 0,
+            "hours": 2,
             "min": 0
         },
         "points": {
@@ -4687,27 +4686,27 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "1": 50000,
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
             "2": 0,
-            "3": 2
+            "3": 0
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
-        "extra": "N/A"
+        "extra": "Полная конфискация судна и отзыв лицензии пилота."
     },
     "423": {
         "id": "423",
-        "charge": "Obstructing Traffic",
-        "definition": "Any person who stops a vehicle on a roadway in a manner that obstructs the normal flow of traffic, unless required by law or directed by a peace officer.",
-        "type": "I",
+        "charge": "Несоблюдение требований ATC",
+        "definition": "Любое лицо (лица), которое, управляя воздушным судном, не соблюдает требования или команды диспетчера ATC.",
+        "type": "F",
         "class": {
             "A": false,
             "B": false,
@@ -4715,13 +4714,13 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
             "hours": 0,
-            "min": 0
+            "min": 30
         },
         "points": {
             "A": 0,
@@ -4729,30 +4728,30 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "1": 50000,
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
             "2": 0,
-            "3": 2
+            "3": 0
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
         "extra": "N/A"
     },
     "424": {
         "id": "424",
-        "charge": "Driving Against One-way Traffic",
-        "definition": "Any person who operates a motor vehicle in the opposite direction of designated one-way traffic on a roadway, except when directed to do so by a law enforcement officer or authorized traffic control personnel.",
-        "type": "I",
+        "charge": "Воздушное уклонение",
+        "definition": "Любое лицо (лица), уклоняющееся от любого правоохранительного органа через воздушное судно, будь то в качестве пилота или пассажира.",
+        "type": "F",
         "class": {
             "A": false,
-            "B": false,
+            "B": true,
             "C": true
         },
         "offence": {
@@ -4761,7 +4760,7 @@
             "3": true
         },
         "time": {
-            "days": 0,
+            "days": 1,
             "hours": 0,
             "min": 0
         },
@@ -4771,26 +4770,26 @@
             "C": 0
         },
         "fine": {
-            "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "1": 100000,
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
             "2": 0,
-            "3": 2
+            "3": 0
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
-        "extra": "N/A"
+        "extra": "Полная конфискация судна."
     },
     "425": {
         "id": "425",
-        "charge": "Imprudent Driving",
-        "definition": "Any person who operates a vehicle on a roadway without reasonable care or consideration for factors that affect safe operation, including but not limited to:\n(a) failing to adjust driving behavior according to road conditions, weather, visibility, or surrounding traffic; or\n(b) engaging in activities that impair their ability to maintain full control of the vehicle, including but not limited to eating, reaching for objects, interacting with passengers in a manner that distracts from driving, or personal grooming.",
+        "charge": "Небрежное обращение с велосипедом",
+        "definition": "Любое лицо(а), управляющее велосипедом не должно управлять им:\n\nтаким образом, что может причинить материальный ущерб или причинить вред другим участникам дорожного движения и пешеходам;\nне держась хотя бы одной рукой за руль;\n находясь в алкогольном опьянении (BAC выше 0,08%);\nне с правой стороны проезжей части за исключением случаев, когда велосипедист объезжает или обгоняет объект, который мешает ему двигаться справа, либо когда велосипедист готовится повернуть налево или развернуться.\nне на велосипедной дорожке, когда она обустроена и существует, кроме случаев, когда велосипедист объезжает или обгоняет объект, который мешает ему двигаться справа, либо когда велосипедист готовится повернуть налево или развернуться.\nне должно ездить иначе, чем на предусмотренном конструкцией сиденье, если только велосипед не был разработан производителем для езды без сиденья.\n\nЛюбое лицо(а) не должно ехать в качестве пассажира на велосипеде на дороге иначе, чем на предусмотренном конструкцией сиденье.",
         "type": "I",
         "class": {
             "A": false,
@@ -4799,8 +4798,8 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
@@ -4814,25 +4813,25 @@
         },
         "fine": {
             "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
             "2": 0,
-            "3": 2
+            "3": 0
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
-        "extra": "N/A"
+        "extra": "При выписке штрафа желательно указывать в скобках конкретное нарушение, например: 425 PC. Небрежное обращение с велосипедом (вождение не справа)."
     },
     "426": {
         "id": "426",
-        "charge": "Use of an Electronic Device while Driving",
-        "definition": "Any person who manually operates, hold, or otherwise physically interact with an electronic device while driving or operating a motor vehicle on a roadway, except in cases of emergency or when using a hands-free mode that does not require physical handling of the device.",
+        "charge": "Неправомерное использование специальных сигналов",
+        "definition": "Любое лицо, которое является водителем транспортного средства экстренной службы освобождается от соблюдения правил дорожного движения в разумных пределах, при соблюдении всех следующих условий:\n\nтранспортное средство управляется в ответ на экстренный вызов, где существует непосредственная угроза чьей либо жизни; или\nтранспортное средство управляется во время спасательных операций; или\nтранспортное средство используется для немедленного преследования подозреваемого или фактического нарушителя закона; или\nтранспортное средство реагирует на пожарную тревогу, но не возвращается после нее.\n\nА также, если:\nводитель такого транспортного средства включает сирену, когда это может быть разумно необходимо; и\nна транспортном средстве горит красный фонарь, видимый спереди, в качестве предупреждения для других водителей и пешеходов.\n\nПримечания:\nзвуковая сирена и специальные сигналы на транспортном средстве экстренной службы не должны включаться, за исключением случаев, предусмотренных выше;\nэтот раздел не освобождает водителя транспортного средства от обязанности вести машину с должным вниманием к безопасности всех лиц, пользующихся дорогой, и не защищает его от последствий произвольного использования привилегий, предоставленных в этом разделе;\nкаждому сотруднику полиции и дорожной службы категорически запрещается использовать сирену и специальные сигналы или вести машину с запрещенной скоростью при сопровождении любого транспортного средства, за исключением случаев, когда сопровождение или перевозка осуществляются для сохранения жизни или ускорения перемещения грузов и персонала для любого федерального, государственного или местного правительственного агентства во время чрезвычайной ситуации в стране, чрезвычайного военного положения, чрезвычайного положения.",
         "type": "I",
         "class": {
             "A": false,
@@ -4841,8 +4840,8 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
@@ -4856,8 +4855,8 @@
         },
         "fine": {
             "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
@@ -4869,12 +4868,12 @@
             "2": 0,
             "3": 0
         },
-        "extra": "Excludes hands-free devices"
+        "extra": "N/A"
     },
     "427": {
         "id": "427",
-        "charge": "Vehicular Noise Violation",
-        "definition": "Any person who operates a vehicle in a manner that emits excessive noise, including but not limited to:\n\n(a) unnecessary use of the vehicle's horn;\n(b) playing loud music or audio at volumes that disregard noise pollution or disturb public peace;\n(c)  excessive revving of the engine; or\n(d) operating a vehicle with a modified or faulty exhaust system that generates unreasonable noise levels",
+        "charge": "Нарушение правил приоритетного проезда перекрестка",
+        "definition": "Настоящий кодекс гласит и требует, чтобы:\n\nводители, въезжающие на перекресток, уступали дорогу транспортным средствам, уже находящимся на перекрестке;\nесли два транспортных средства въезжают на перекресток одновременно, водитель слева должен уступить водителю справа;\nводители, поворачивающие налево или совершающие разворот, должны уступать транспортным средствам, движущимся в противоположном направлении;\nводители, въезжающим на дорогу с придорожной территории, переулка или проезда, уступали дорогу всем участникам движения на дороге;",
         "type": "I",
         "class": {
             "A": false,
@@ -4883,8 +4882,8 @@
         },
         "offence": {
             "1": true,
-            "2": true,
-            "3": true
+            "2": false,
+            "3": false
         },
         "time": {
             "days": 0,
@@ -4898,225 +4897,30 @@
         },
         "fine": {
             "1": 2500,
-            "2": 5000,
-            "3": 7500
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
             "2": 0,
-            "3": 2
+            "3": 0
         },
         "suspension": {
             "1": 0,
             "2": 0,
-            "3": 3
+            "3": 0
         },
         "extra": "N/A"
     },
     "428": {
         "id": "428",
-        "charge": "Illegal Usage of Hydraulics",
-        "definition": "Any person operating a vehicle that has hydraulic equipment installed on the chassis or other component(s) of the vehicle without legitimate equipment need or purpose (such as a forklift) may not use such hydraulics while on a state, county, or local road.",
-        "type": "I",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": true,
-            "3": true
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 2500,
-            "2": 5000,
-            "3": 7500
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 2
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 3
-        },
-        "extra": "N/A"
-    },
-    "501": {
-        "id": "501",
-        "charge": "Indecent Exposure",
-        "definition": "Any person(s) who willfully and lewdly exposes their person, or the private parts thereof, in any public place, or in any place where there are present other persons.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 300000
-        },
-        "extra": "N/A"
-    },
-    "502": {
-        "id": "502",
-        "charge": "Lewd or Dissolute Conduct in Public",
-        "definition": "Any person(s) who solicits anyone to engage in or engages in lewd or dissolute or inappropriate conduct in any public place or in any place open to the public or exposed to public view.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 200000
-        },
-        "extra": "N/A"
-    },
-    "503": {
-        "id": "503",
-        "charge": "Prostitution",
-        "definition": "Any person(s) who encourages or persuades a person to engage in sexual activity for monetary gain, whether it be the prostitute or the customer.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": true,
-            "3": true
-        },
-        "time": {
-            "days": 0,
-            "hours": 6,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 150000
-        },
-        "extra": "N/A"
-    },
-    "504": {
-        "id": "504",
-        "charge": "Pandering/Pimping",
-        "definition": "Any person who solicits or advertises, aids, or provides transport or otherwise supervises persons involved in prostitution and retains money earned during the commission of the offense of prostitution or any person who causes, induces or encourages another person to become a prostitute by promises, threats, violence or any scheme.",
+        "charge": "Непреднамеренное автомобильное убийство",
+        "definition": "Любое лицо, которое, управляя транспортным средством, причиняет смерть другому лицу, действуя без злого умысла.",
         "type": "F",
         "class": {
-            "A": false,
-            "B": false,
-            "C": true
+            "A": true,
+            "B": true,
+            "C": false
         },
         "offence": {
             "1": true,
@@ -5124,62 +4928,6 @@
             "3": false
         },
         "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 400000
-        },
-        "extra": "N/A"
-    },
-    "505": {
-        "id": "505",
-        "charge": "Stalking",
-        "definition": "Any person who willfully, maliciously, and repeatedly follows or willfully and maliciously harasses another person, and who makes a credible threat with the intent to place that person in reasonable fear for his or her safety, or the safety of his or her immediate family.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
             "days": 3,
             "hours": 0,
             "min": 0
@@ -5204,16 +4952,12 @@
             "2": 0,
             "3": 0
         },
-        "bail": {
-            "auto": 2,
-            "cost": 500000
-        },
-        "extra": "N/A"
+        "extra": "В случае если, лицо причиняет смерть, действуя со злым умыслом, оно должно нести ответственность по статьям 208, 209 или 003."
     },
-    "506M": {
-        "id": "506M",
-        "charge": "Misdemeanor Gaming Fraud",
-        "definition": "Any person who by any device, sleight of hand, trick, deception or other means whatever, by use of cards or other implements or instruments, or while betting during any play or game, fraudulently obtains from another person money or property.",
+    "501": {
+        "id": "501",
+        "charge": "Непристойное обнажение",
+        "definition": "Любое лицо, которое обнажает свои интимные части в любом общественном месте или в любом месте, где присутствуют другие лица, которых это может оскорбить или раздражить.",
         "type": "M",
         "class": {
             "A": false,
@@ -5227,11 +4971,11 @@
         },
         "time": {
             "days": 0,
-            "hours": 12,
+            "hours": 3,
             "min": 0
         },
         "maxtime": {
-            "days": 1,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -5243,109 +4987,7 @@
         "fine": {
             "1": 0,
             "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 450000
-        },
-        "extra": "N/A"
-    },
-    "506F": {
-        "id": "506F",
-        "charge": "Felony Gaming Fraud",
-        "definition": "Any person who by any device, sleight of hand, trick, deception or other means whatever, by use of cards or other implements or instruments, or while betting during any play or game, fraudulently obtains from another person money or property.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 2
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 450000
-        },
-        "extra": "N/A"
-    },
-    "507": {
-        "id": "507",
-        "charge": "Child Abuse",
-        "definition": "Any person who willfully inflicts upon a child under 18 years old any cruel or inhumane corporal punishment or an injury resulting in a traumatic condition, or puts a child in a situation or circumstance that invites great bodily harm or injury, or causes minor harm or injury to the child.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 8,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 4,
-            "B": 3,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
+            "3": 1000
         },
         "impound": {
             "1": 0,
@@ -5363,61 +5005,10 @@
         },
         "extra": "N/A"
     },
-    "508": {
-        "id": "508",
-        "charge": "Child Neglect",
-        "definition": "Any person who fails to provide physical necessities such as clothing, food, shelter, and medical or other remedial care for his/her minor child without a lawful excuse.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 4,
-            "B": 3,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 250000
-        },
-        "extra": "N/A"
-    },
-    "509": {
-        "id": "509",
-        "charge": "Sale of Alcohol / Tobacco to a Minor",
-        "definition": "Any person(s) who sell, give, serve, or permit to be served alcoholic beverages or tobacco to a person under 21 years of age, or permit a person under 21 years of age to consume such beverages or tobacco on the licensed premises.",
+    "502": {
+        "id": "502",
+        "charge": "Подстрекательство к непристойному обнажению",
+        "definition": "Любое лицо, которое заставляет, советует или помогает любому лицу выставлять себя напоказ или участвовать в выставке натурщиков, или делать любую другую демонстрацию себя для всеобщего обозрения или обозрения любого количества людей, что оскорбляет приличия, или приспособлено для возбуждения порочных или развратных мыслей или действий.",
         "type": "M",
         "class": {
             "A": false,
@@ -5435,58 +5026,7 @@
             "min": 0
         },
         "maxtime": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 80000
-        },
-        "extra": "N/A"
-    },
-    "510": {
-        "id": "510",
-        "charge": "Minor Alcohol / Tobacco Violation",
-        "definition": "Any person under the age of 21 who is in possession of alcohol, alcohol-based products, or appears to be under the influence of alcohol, or any tobacco-based products.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
             "days": 0,
-            "hours": 1,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 2,
             "hours": 0,
             "min": 0
         },
@@ -5494,108 +5034,6 @@
             "A": 0,
             "B": 0,
             "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 50000
-        },
-        "extra": "N/A"
-    },
-    "511": {
-        "id": "511",
-        "charge": "Animal Abuse",
-        "definition": "Any person who maliciously and intentionally maims, mutilates, tortures, assaults, wounds, or kills a living animal, or holds ownership to a pet that is not considered domesticated and safe for the animal or the owner.",
-        "type": "F",
-        "class": {
-            "A": true,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 5,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 5,
-            "B": 4,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 50000
-        },
-        "extra": "N/A"
-    },
-    "512": {
-        "id": "512",
-        "charge": "Sexual Activity With An Inmate",
-        "definition": "Any officer or employee of the Department of Health and Human Services, or of a health facility confining persons who are guilty of a public offense, or of any detention facility as defined in (b), in the premises of any detention facility, who engages in sexual activity with a consenting adult who is confined to that detention facility or health facility, shall be guilty of a felony.\n\n(b) This clause follows the definitions of any detention facility as defined in the Department of Corrections and Rehabilitations Act of 2023",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 5,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 3
         },
         "fine": {
             "1": 0,
@@ -5618,10 +5056,163 @@
         },
         "extra": "N/A"
     },
-    "601": {
-        "id": "601",
-        "charge": "Manufacturing A Controlled Substance",
-        "definition": "Any person who manufactures, compounds, converts, produces, derives, processes, or prepares, either directly or indirectly by chemical or natural extraction any illegal or prescription substance without proper permits. The highest category being manufactured determines the overall penalty.",
+    "503": {
+        "id": "503",
+        "charge": "Проституция",
+        "definition": "Любое лицо (а), которое поощряет или убеждает человека вступить в половую жизнь с целью получения денежной выгоды, будь то проститутка или клиент.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "503.1": {
+        "id": "503.1",
+        "charge": "Получение сексуальных услуг",
+        "definition": "Любое лицо (а), которое собирается, планирует или вступает в половую связь, в обмен на материальную выгоду, является виновным в проступке против общественной морали.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 2
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "504": {
+        "id": "504",
+        "charge": "Сутенерство",
+        "definition": "Любое лицо (а), которое подстрекает или рекламирует, помогает или предоставляет транспорт или иным образом контролирует лиц, вовлеченных в проституцию и удерживает деньги, заработанные во время совершения преступления проституции, совершает преступление сводничества / сутенерства.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 2,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "505": {
+        "id": "505",
+        "charge": "Изготовление вещества контролируемого оборота",
+        "definition": "Любое лицо (а), за исключением случаев, предусмотренных законом, а также за исключением выращивания марихуаны для собственного потребления в размере двух и менее растений:\n\n(a) которое производит, смешивает, перерабатывает, извлекает, обрабатывает или готовит, прямо или косвенно путем химического или естественного извлечения любое незаконное или рецептурное вещество. Наивысшая категория определяет суммарное наказание.\n(b) которое изготавливает, выращивает, высушивает или обрабатывает каннабис для собственного потребления в размере одного растения и более, не ограничив доступ несовершеннолетних, либо выращивая растение на открытом воздухе\n(c) которое изготавливает, выращивает, высушивает или обрабатывает каннабис для собственного потребления в размере трёх и более растений.",
         "type": "F",
         "class": {
             "A": false,
@@ -5635,22 +5226,22 @@
         },
         "time": {
             "A": {
-                "days": 14,
-                "hours": 0,
-                "min": 0
-            },
-            "B": {
-                "days": 12,
-                "hours": 0,
-                "min": 0
-            },
-            "C": {
                 "days": 10,
                 "hours": 0,
                 "min": 0
             },
+            "B": {
+                "days": 9,
+                "hours": 0,
+                "min": 0
+            },
+            "C": {
+                "days": 7,
+                "hours": 0,
+                "min": 0
+            },
             "D": {
-                "days": 8,
+                "days": 5,
                 "hours": 0,
                 "min": 0
             },
@@ -5663,7 +5254,7 @@
         "points": {
             "A": 0,
             "B": 0,
-            "C": 7
+            "C": 0
         },
         "fine": {
             "A": 50000,
@@ -5683,22 +5274,10 @@
             "3": 0
         },
         "bail": {
-            "auto": {
-                "A": true,
-                "B": true,
-                "C": true,
-                "D": true,
-                "T": true
-            },
-            "cost": {
-                "A": 500000,
-                "B": 470000,
-                "C": 470000,
-                "D": 470000,
-                "T": 470000
-            }
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A",
+        "extra": "Категория А - Бензилморфин, Крэк-кокаин, Кокаин, Героин и иные Опиоиды (кроме Кодеина и Оксикодона, относящихся к категории С).\nКатегория В - Амфетамины, Экстази, Кетамин, Метамфетамин, Лизергиновая кислота, Диэтиламид, МДМА, Аддерол, ЛСД.\nКатегория C - Замещенные барбитуровые кислоты, Метадон, Морфин, Оксикодон, Псилоцибиновые грибы, Стероиды, Ксанакс, Кодеин, Викодин, Диазепам, Фенциклидин.\nКатегория D - Каннабис, Каннабиноиды в соответствие с 505(b) и 505(c).\nКатегория T - В настоящее время не существует.",
         "drugs": {
             "1": "A",
             "2": "B",
@@ -5707,10 +5286,10 @@
             "5": "T"
         }
     },
-    "602": {
-        "id": "602",
-        "charge": "Possession Of A Controlled Substance",
-        "definition": "Any person who possesses any controlled substance or multiple controlled substances except when dispensed or prescribed by or under the direction of a person licensed by the state to dispense, prescribe, or administer controlled substances. This shall apply to any measurements of less than 15 grams. The highest category in possession determines overall penalty.",
+    "506": {
+        "id": "506",
+        "charge": "Владение веществом контролируемого оборота",
+        "definition": "Любое лицо (а), которое сознательно или неосознанно владеет каким-либо контролируемым веществом, за исключением случаев, когда оно отпускается или предписывается или под руководством лица, имеющего лицензию государства на отпуск, назначение или введение контролируемых веществ, за исключением марихуаны рекреационного и медицинского предназначения, а также продуктов, содержащих каннабиноиды, не ограничив доступ несовершеннолетних.",
         "type": "M",
         "class": {
             "A": false,
@@ -5758,7 +5337,7 @@
             "A": 4500,
             "B": 3750,
             "C": 3000,
-            "D": 2250,
+            "D": 0,
             "T": 500
         },
         "impound": {
@@ -5772,22 +5351,10 @@
             "3": 0
         },
         "bail": {
-            "auto": {
-                "A": true,
-                "B": true,
-                "C": true,
-                "D": true,
-                "T": true
-            },
-            "cost": {
-                "A": 150000,
-                "B": 100000,
-                "C": 60000,
-                "D": 35000,
-                "T": 20000
-            }
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A",
+        "extra": "Категория А - Бензилморфин, Крэк-кокаин, Кокаин, Героин и иные Опиоиды (кроме Кодеина и Оксикодона, относящихся к категории С).\nКатегория В - Амфетамины, Экстази, Кетамин, Метамфетамин, Лизергиновая кислота, Диэтиламид, МДМА, Аддерол, ЛСД.\nКатегория C - Замещенные барбитуровые кислоты, Метадон, Морфин, Оксикодон, Псилоцибиновые грибы, Стероиды, Ксанакс, Кодеин, Викодин, Диазепам, Фенциклидин.\nКатегория D - Каннабис, Каннабиноиды в соответствие с 506.1\nКатегория T - В настоящее время не существует.",
         "drugs": {
             "1": "A",
             "2": "B",
@@ -5796,10 +5363,61 @@
             "5": "T"
         }
     },
-    "603": {
-        "id": "603",
-        "charge": "Possession Of A Controlled Substance with Intent to Distribute",
-        "definition": "Any person who possesses any controlled substance or multiple controlled substances with the intent to distribute, deliver, or sell. This shall also automatically apply to any measurements 15 grams and above, regardless of individual intent. The highest category in possession determines the overall penalty.",
+    "506.1": {
+        "id": "506.1",
+        "charge": "Хранение продуктов, содержащих каннабиноиды",
+        "definition": "(a) Любое лицо, которое хранит при себе продукты, содержащие каннабиноиды, в том числе медицинского или рекреационного характера, в размере более 1 унции (28 граммов).\n(b) Любое лицо, которое хранит в своем имуществе, транспорте, на рабочем месте или на любой другой частной территории продукты, содержащие каннабиноиды, в том числе медицинского или рекреационного характера, за исключением лиц и предприятий, получивших официальную лицензию от соответствующего государственного органа, в размере, превышающем 2 унций (56 граммов).",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "507": {
+        "id": "507",
+        "charge": "Владение вещества контролируемого оборота с намерением распространить",
+        "definition": "Любое лицо (а), владеющее контролируемым веществом или несколькими контролируемыми веществами, за исключением лиц, владеющих марихуаной рекреационного или медицинского предназначения, а также продуктами содержащими каннабиноиды, с намерением распространять, доставлять или продавать. Это также автоматически применяется к любым измерениям 15 граммов и выше, независимо от индивидуальных намерений.",
         "type": "M",
         "class": {
             "A": false,
@@ -5829,7 +5447,7 @@
             },
             "D": {
                 "days": 0,
-                "hours": 12,
+                "hours": 0,
                 "min": 0
             },
             "T": {
@@ -5847,7 +5465,7 @@
             "A": 15000,
             "B": 10500,
             "C": 7000,
-            "D": 5250,
+            "D": 0,
             "T": 1000
         },
         "impound": {
@@ -5861,22 +5479,10 @@
             "3": 0
         },
         "bail": {
-            "auto": {
-                "A": true,
-                "B": true,
-                "C": true,
-                "D": true,
-                "T": true
-            },
-            "cost": {
-                "A": 250000,
-                "B": 150000,
-                "C": 80000,
-                "D": 50000,
-                "T": 30000
-            }
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A",
+        "extra": "Категория А - Бензилморфин, Крэк-кокаин, Кокаин, Героин и иные Опиоиды (кроме Кодеина и Оксикодона, относящихся к категории С).\nКатегория В - Амфетамины, Экстази, Кетамин, Метамфетамин, Лизергиновая кислота, Диэтиламид, МДМА, Аддерол, ЛСД.\nКатегория C - Замещенные барбитуровые кислоты, Метадон, Морфин, Оксикодон, Псилоцибиновые грибы, Стероиды, Ксанакс, Кодеин, Викодин, Диазепам, Фенциклидин.\nКатегория D - Каннабис, Каннабиноиды в соответствие с 507.1\nКатегория T - В настоящее время не существует.",
         "drugs": {
             "1": "A",
             "2": "B",
@@ -5885,11 +5491,11 @@
             "5": "T"
         }
     },
-    "604": {
-        "id": "604",
-        "charge": "Criminal Sale Of a Controlled Substance",
-        "definition": "Any person who knowingly and unlawfully sells one or more preparations, compounds, or  mixtures containing controlled substances.",
-        "type": "F",
+    "507.1": {
+        "id": "507.1",
+        "charge": "Распространение продукции, содержащей каннабиноиды",
+        "definition": "Лицо (а), которое продает, обменивает или передает продукцию, содержающую каннабиноиды, в том числе медицинского или рекреационного предназначения, за исключением лиц и предприятий, получивших официальную лицензию от соответствующего государственного органа, за материальную ценность, деньги или какое-либо обещание независмо от количества продукции.",
+        "type": "M",
         "class": {
             "A": false,
             "B": false,
@@ -5901,43 +5507,24 @@
             "3": false
         },
         "time": {
-            "A": {
-                "days": 2,
-                "hours": 0,
-                "min": 0
-            },
-            "B": {
-                "days": 1,
-                "hours": 0,
-                "min": 0
-            },
-            "C": {
-                "days": 0,
-                "hours": 14,
-                "min": 0
-            },
-            "D": {
-                "days": 0,
-                "hours": 12,
-                "min": 0
-            },
-            "T": {
-                "days": 0,
-                "hours": 6,
-                "min": 0
-            }
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
         },
         "points": {
             "A": 0,
             "B": 0,
-            "C": 4
+            "C": 0
         },
         "fine": {
-            "A": 15000,
-            "B": 10500,
-            "C": 7000,
-            "D": 5250,
-            "T": 1000
+            "1": 0,
+            "2": 0,
+            "3": 0
         },
         "impound": {
             "1": 0,
@@ -5950,34 +5537,15 @@
             "3": 0
         },
         "bail": {
-            "auto": {
-                "A": true,
-                "B": true,
-                "C": true,
-                "D": true,
-                "T": true
-            },
-            "cost": {
-                "A": 350000,
-                "B": 250000,
-                "C": 160000,
-                "D": 100000,
-                "T": 70000
-            }
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A",
-        "drugs": {
-            "1": "A",
-            "2": "B",
-            "3": "C",
-            "4": "D",
-            "5": "T"
-        }
+        "extra": "N/A"
     },
-    "605": {
-        "id": "605",
-        "charge": "Drug Smuggling",
-        "definition": "Any person who attempts, or is successful in the act of transporting, exporting, storing or concealing controlled substances or multiple controlled substances on their person or in their property in excess of measurements of 35 grams or above, regardless of individual intent.  This shall also apply for transportation across jurisdictions. The highest category in possession determines the overall penalty.",
+    "508": {
+        "id": "508",
+        "charge": "Контрабанда наркотиков",
+        "definition": "Любое лицо (а),\n\n(а) которое пытается или преуспевает в транспортировке, экспорте или импорте, хранении или сокрытии контролируемых веществ или нескольких контролируемых веществ у себя или в их собственности, размер которых превышает 35 граммов или выше, независимо от индивидуального намерения. Это также относится к перевозке через юрисдикцию, за исключением транспортировки, хранении или сокрытии медицинской или рекреационной марихуаны. \n(b) которое пытается или преуспевает в транспортировке, экспорте или импорте, хранении или сокрытии марихуанны и каннабоидов, в размере более 2 унций (56 граммов).",
         "type": "F",
         "class": {
             "A": false,
@@ -6019,7 +5587,7 @@
         "points": {
             "A": 0,
             "B": 0,
-            "C": 3
+            "C": 0
         },
         "fine": {
             "A": 22500,
@@ -6039,22 +5607,10 @@
             "3": 0
         },
         "bail": {
-            "auto": {
-                "A": true,
-                "B": true,
-                "C": true,
-                "D": true,
-                "T": true
-            },
-            "cost": {
-                "A": 400000,
-                "B": 250000,
-                "C": 150000,
-                "D": 100000,
-                "T": 80000
-            }
+            "auto": false,
+            "cost": 0
         },
-        "extra": "N/A",
+        "extra": "Категория А - Бензилморфин, Крэк-кокаин, Кокаин, Героин и иные Опиоиды (кроме Кодеина и Оксикодона, относящихся к категории С).\nКатегория В - Амфетамины, Экстази, Кетамин, Метамфетамин, Лизергиновая кислота, Диэтиламид, МДМА, Аддерол, ЛСД.\nКатегория C - Замещенные барбитуровые кислоты, Метадон, Морфин, Оксикодон, Псилоцибиновые грибы, Стероиды, Ксанакс, Кодеин, Викодин, Диазепам, Фенциклидин.\nКатегория D - Каннабис, Каннабиноиды в соответствие с 508(b)\nКатегория T - В настоящее время не существует.",
         "drugs": {
             "1": "A",
             "2": "B",
@@ -6063,10 +5619,10 @@
             "5": "T"
         }
     },
-    "606": {
-        "id": "606",
-        "charge": "Drug Trafficking",
-        "definition": "Any person(s) who attempts, or is successful in the act of transporting, importing, exporting a controlled substance or multiple controlled substances on their person or in their property in excess of measurements of 75 grams or above, regardless of individual intent.  This shall also apply for transportation across jurisdictions to enable the supply or distribution. The highest category in possession determines the overall penalty.",
+    "509": {
+        "id": "509",
+        "charge": "Незаконный сбыт наркотиков в крупных размерах",
+        "definition": "Любое лицо (а),\n\n(а) которое пытается или успешно осуществляет транспортировку, импорт, экспорт, хранение или сокрытие контролируемого вещества или нескольких контролируемых веществ при себе или в их собственности, превышающие размеры 75 грамм или выше, независимо от индивидуального намерения. Это также относится к транспортировке через юрисдикцию для обеспечения поставки или распределения, за исключением транспортировки, хранении или сокрытии медицинской или рекреационной марихуанны.\n(b) которое пытается или успешно осуществляет передачу, дарение либо продажу, за исключением случаев, когда лицо имеет лицензию государства на розничную или оптовую продажу, марихуанны и каннабоидов, в размере более 4 унций (112 граммов) и выше.",
         "type": "F",
         "class": {
             "A": false,
@@ -6080,22 +5636,22 @@
         },
         "time": {
             "A": {
-                "days": 7,
-                "hours": 0,
-                "min": 0
-            },
-            "B": {
-                "days": 6,
-                "hours": 0,
-                "min": 0
-            },
-            "C": {
                 "days": 5,
                 "hours": 0,
                 "min": 0
             },
-            "D": {
+            "B": {
                 "days": 4,
+                "hours": 0,
+                "min": 0
+            },
+            "C": {
+                "days": 3,
+                "hours": 0,
+                "min": 0
+            },
+            "D": {
+                "days": 2,
                 "hours": 0,
                 "min": 0
             },
@@ -6108,7 +5664,7 @@
         "points": {
             "A": 0,
             "B": 0,
-            "C": 5
+            "C": 0
         },
         "fine": {
             "A": 45000,
@@ -6128,22 +5684,10 @@
             "3": 0
         },
         "bail": {
-            "auto": {
-                "A": 2,
-                "B": true,
-                "C": true,
-                "D": true,
-                "T": true
-            },
-            "cost": {
-                "A": 500000,
-                "B": 300000,
-                "C": 250000,
-                "D": 150000,
-                "T": 100000
-            }
+            "auto": false,
+            "cost": 0
         },
-        "extra": "For every additional 75 grams in possession upon detainment or arrest, an additional 12 hours will be added to the sentence.",
+        "extra": "Категория А - Бензилморфин, Крэк-кокаин, Кокаин, Героин и иные Опиоиды (кроме Кодеина и Оксикодона, относящихся к категории С).\nКатегория В - Амфетамины, Экстази, Кетамин, Метамфетамин, Лизергиновая кислота, Диэтиламид, МДМА, Аддерол, ЛСД.\nКатегория C - Замещенные барбитуровые кислоты, Метадон, Морфин, Оксикодон, Псилоцибиновые грибы, Стероиды, Ксанакс, Кодеин, Викодин, Диазепам, Фенциклидин.\nКатегория D - Каннабис, Каннабиноиды в соответствие с 509(b)\nКатегория T - В настоящее время не существует.",
         "drugs": {
             "1": "A",
             "2": "B",
@@ -6152,107 +5696,10 @@
             "5": "T"
         }
     },
-    "607": {
-        "id": "607",
-        "charge": "Possession of Drug Paraphernalia",
-        "definition": "Any person who knowingly possesses any device, instrument or paraphernalia used for or designed for unlawfully injecting or smoking a controlled substance, packaging, measuring or weighing controlled substances such as gelatine capsules, vials, capsules, scales or glassine envelopes.",
-        "type": "M",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 0,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 4500,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 0
-        },
-        "extra": "N/A"
-    },
-    "609": {
-        "id": "609",
-        "charge": "Eavesdropping",
-        "definition": "Any person who unlawfully engages in wiretapping, mechanical overhearing of a conversation, or intercepting or accessing of an electronic communication.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 4,
-            "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 200000
-        },
-        "extra": "N/A"
-    },
-    "610": {
-        "id": "610",
-        "charge": "Facial Obstruction",
-        "definition": "Any person who obstructs or disguises their face, during the commission of a crime, shall be charged under this statute.",
+    "510": {
+        "id": "510",
+        "charge": "Использование маски для сокрытия личности",
+        "definition": "Любое лицо, пытающееся скрыть своё лицо во время совершения проступка или тяжкого преступления.",
         "type": "M",
         "class": {
             "A": false,
@@ -6270,7 +5717,7 @@
             "min": 0
         },
         "maxtime": {
-            "days": 2,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
@@ -6295,15 +5742,226 @@
             "3": 0
         },
         "bail": {
-            "auto": true,
-            "cost": 100000
+            "auto": false,
+            "cost": 0
         },
         "extra": "N/A"
     },
-    "611": {
-        "id": "611",
-        "charge": "Fire Code Violation",
-        "definition": "Any violation concerning fire code, enforced by the fire marshal.",
+    "511": {
+        "id": "511",
+        "charge": "Жестокое обращение с животными",
+        "definition": "Любое лицо (а), которое злонамеренно и намеренно калечит, истязает, нападает, ранит или убивает живое животное, или владеет домашним животным, которое не считается одомашненным и безопасным для животного или владельца.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "512": {
+        "id": "512",
+        "charge": "Жестокое обращение с детьми / оставление в опасности",
+        "definition": "Любое лицо (лица), которое умышленно применяет к ребенку в возрасте до 18 лет какое-либо жестокое или бесчеловечное телесное наказание или травму, повлекшую за собой травматическое состояние, или ставит ребенка в ситуацию или обстоятельства, которые влекут за собой серьезные телесные повреждения или травмы или причиняют незначительные телесные повреждения. причинение вреда или травмы ребенку.",
+        "type": "F",
+        "class": {
+            "A": true,
+            "B": true,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 4,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "513": {
+        "id": "513",
+        "charge": "Продажа алкогольных напитков, марихуаны и табачных изделий лицам младше 21 года",
+        "definition": "(a) Любое лицо, которое умышленно продает алкоголь, марихуанну и/или продукты содержащие каннабоиды, а также табак лицам младше 21 года.\n(b) Любое лицо, являющееся владельцем заведения, в котором были проданы табак, алкоголь, марихуана и/или содержащие каннабиноиды продукты лицам, не достигшим возраста 21 года, независимо от индивидуальных намерений.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "A": {
+                "days": 0,
+                "hours": 3,
+                "min": 0
+            },
+            "B": {
+                "days": 0,
+                "hours": 0,
+                "min": 0
+            }
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "A": 40000,
+            "B": 300000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": {
+                "A": false,
+                "B": false
+            },
+            "cost": {
+                "A": 0,
+                "B": 0
+            }
+        },
+        "extra": "Это правонарушение должно быть рассмотрено в суде по обязательному требованию."
+    },
+    "514": {
+        "id": "514",
+        "charge": "Владение алкогольной продукцией, марихуаны, табачными изделиями лицами младше 21 года",
+        "definition": "Любое лицо в возрасте до 21 года, которое хранит алкоголь, продукты на его основе, марихуанну, продукты содержащие каннабоиды, табак, любые продукты на основе табака, либо находится в состоянии алкогольного или наркотического опьянения.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 30
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "515": {
+        "id": "515",
+        "charge": "Нарушение закона о пожарной безопасности",
+        "definition": "Любое нарушение правил пожарной безопасности, которое были зафиксировано офисом пожарных маршалов штата.",
         "type": "I",
         "class": {
             "A": false,
@@ -6316,6 +5974,11 @@
             "3": false
         },
         "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
             "days": 0,
             "hours": 0,
             "min": 0
@@ -6340,12 +6003,16 @@
             "2": 0,
             "3": 0
         },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
         "extra": "N/A"
     },
-    "612": {
-        "id": "612",
-        "charge": "Littering",
-        "definition": "Any person who discards, drops, or scatters waste matter in a place other than a container or proper disposal, in a public or private property, other than his or her own property.",
+    "516": {
+        "id": "516",
+        "charge": "Замусоривание",
+        "definition": "Любое лицо (а), которое выбрасывает, роняет или разбрасывает отходы в месте, отличном от контейнера или надлежащей утилизации, в государственной или частной собственности, кроме его или ее собственной собственности.",
         "type": "I",
         "class": {
             "A": false,
@@ -6357,7 +6024,12 @@
             "2": false,
             "3": false
         },
-        "time": {
+       "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
             "days": 0,
             "hours": 0,
             "min": 0
@@ -6382,12 +6054,62 @@
             "2": 0,
             "3": 0
         },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
         "extra": "N/A"
     },
-    "613": {
-        "id": "613",
-        "charge": "SRCB Violation",
-        "definition": "Any person(s) who fail to abide by the provisions of the State Regulation of Charities Act, shall be deemed guilty of this offence.",
+    "517": {
+        "id": "517",
+        "charge": "Детская беспризорность / отсутствие заботы о детях",
+        "definition": "Любое лицо (а), которое без законных оснований не может предоставить предметы первой необходимости, такие как одежда, еда, кров, медицинский или иной уход за своим несовершеннолетним ребенком.",
+        "type": "F",
+        "class": {
+            "A": true,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": true,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "518": {
+        "id": "518",
+        "charge": "Нарушение общественного порядка / спокойствия",
+        "definition": "(a) Любое лицо, которое незаконно дерется в общественном месте или вызывает на бой другое лицо в общественном месте.\n(b) Любое лицо, которое злонамеренно и умышленно беспокоит другое лицо громким и необоснованным шумом.\n(c) Любое лицо, использующее в общественном месте оскорбительные слова, которые с разумной вероятностью могут спровоцировать кого-то другого на агрессивную, насильственную реакцию, когда разумно предположить, что такая реакция действительно произойдет (выкрикнуть крайне оскорбительное расовое оскорбление в адрес кого-либо на публике).",
         "type": "M",
         "class": {
             "A": false,
@@ -6401,7 +6123,12 @@
         },
         "time": {
             "days": 0,
-            "hours": 10,
+            "hours": 0,
+            "min": 30
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
             "min": 0
         },
         "points": {
@@ -6410,7 +6137,7 @@
             "C": 0
         },
         "fine": {
-            "1": 50000,
+            "1": 2500,
             "2": 0,
             "3": 0
         },
@@ -6430,10 +6157,660 @@
         },
         "extra": "N/A"
     },
-    "701": {
-        "id": "701",
-        "charge": "Criminal Possession of a Firearm",
-        "definition": "Any person who carries a weapon on their person or in their vehicle, place of business, or another private facility without proper relevant permits or without the knowledge or consent (implied or expressed) of an individual within their vehicle, place of business, or another private facility who possesses such permits is in violation of the law. This shall also extend to firearms without a valid serial number.",
+    "519": {
+        "id": "519",
+        "charge": "Осуществление деятельности незаконного игорного заведения",
+        "definition": "(a) Любое лицо, которое владеет игорным заведением, не имея на то соответствующих разрешительных документов.\n(b) Любое лицо, которое злонамеренно и умышленно работает в незаконном игорном заведении.\n(c) Любое лицо, способствующее осуществлению деятельности незаконного игорного заведения.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 30
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 150000,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "520": {
+        "id": "520",
+        "charge": "Общественное опьянение",
+        "definition": "Лицо, которое находится в общественном месте в состоянии алкогольного или наркотического опьянения, при котором оно не может заниматься физическими упражнениями, заботиться о своей собственной безопасности или безопасности других, а также мешает, препятствует или делает невозможным свободное пользование любой улицей, тротуаром или другим общественным транспортом. ",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 30
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 4000,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "extra": "N/A"
+    },
+    "521": {
+        "id": "521",
+        "charge": "Нарушение правил пользования парками и лесами штата",
+        "definition": "Лицо, намеренно осуществляющее в пределах парков, лесов штата и иных особо охраняемых природных территорий любой вид деятельности, запрещенный Законом о правилах пользования парками штата.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": true,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min":0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 8000,
+            "2": 10000,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "extra": "N/A"
+    },
+    "601": {
+        "id": "601",
+        "charge": "Стрельба из огнестрельного оружия из автомобиля",
+        "definition": "Любое лицо, умышленно и злонамеренно стреляющее из огнестрельного оружия из транспортного средства в другое лицо, не являющееся пассажиром данного транспортного средства, виновно в совершении тяжкого преступления.",
+        "type": "F",
+        "class": {
+            "A": true,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 2,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "602": {
+        "id": "602",
+        "charge": "Нелегальное владение огнестрельным оружием",
+        "definition": "(а) Лицо не имеет право владеть огнестрельным оружием и виновно в совершении тяжкого преступления, если лицом не выполнено хотя бы одно из условий, перечисленных Разделом 8, Закона о Контроле Смертоносного Оружия.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "603": {
+        "id": "603",
+        "charge": "Владение запрещенным огнестрельным оружием или взрывным устройством",
+        "definition": "Любое лицо, которое сознательно хранит и/или носит любое запрещенное законами штата или федеральными законами огнестрельное оружие или огнестрельное оружие, имеющее в своем составе запрещенную модификацию, а также взрывное устройство виновно в совершении тяжкого преступления.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "604": {
+        "id": "604",
+        "charge": "Продажа огнестрельного оружия и взрывчатых веществ без лицензии",
+        "definition": "Любые лица, которые незаконно продают огнестрельное оружие или самодельные устройства любого типа без соответствующих разрешений или разрешений.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 2,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "605": {
+        "id": "605",
+        "charge": "Демонстрация огнестрельного оружия / муляжа с целью запугивания",
+        "definition": "Любое лицо, которое, за исключением случаев самообороны, в присутствии любого другого лица достает и/или демонстрирует любое огнестрельное оружие или его реплику или муляж, заряженное или незаряженное, в грубой, злобной или угрожающей манере таким образом, чтобы обоснованно вызвать страх в сознании другого лица быть застреленным или раненым, виновно в совершении тяжкого преступления.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "606": {
+        "id": "606",
+        "charge": "Стрельба из огнестрельного оружия в общественном месте",
+        "definition": "Любое лицо (а), которое стреляет из огнестрельного оружия (независимо от его регистрации или правового статуса) без уважительной причины или уважительного мотива.",
+        "type": "F",
+        "class": {
+            "A": true,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "607": {
+        "id": "607",
+        "charge": "Нарушение норм хранения или ношения огнестрельного оружия",
+        "definition": "Любое лицо, владеющее лицензией на ношение и/или хранение огнестрельного оружия, которое не соблюдает внутренние правила обращения с огнестрельным оружием, одобренные Законом штата об обращении и обучении обращению с огнестрельным оружием, принятым муниципальными властями. Проступки приведены во всех разделах, кроме Раздела 15 Закона о Контроле Смертоносного Оружия.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "608": {
+        "id": "608",
+        "charge": "Владение огнестрельным оружием осужденным за тяжкое преступление преступником",
+        "definition": "Любое лицо, которое владеет огнестрельным оружием, будучи ранее осужденным за тяжкое преступление, виновно в совершении тяжкого преступления.\n\nПримечание: не может применяться одновременно с PC 602. Нелегальное владение огнестрельным оружием.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "609": {
+        "id": "609",
+        "charge": "Позволение открыть огонь из транспортного средства из огнестрельного оружия",
+        "definition": "Любой водитель или владелец любого транспортного средства, независимо от того, занимает ли владелец транспортного средства это транспортное средство или нет, который сознательно разрешает любому другому лицу стрелять из любого огнестрельного оружия из транспортного средства, виновно в совершении тяжкого преступления.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "610": {
+        "id": "610",
+        "charge": "Незаконное изменение идентификационных данных огнестрельного оружия",
+        "definition": "Любое лицо, которое изменяет, переделывает, удаляет или стирает название производителя, модель, серийный номер производителя или другой знак идентификации, включая любой отличительный номер или знак, присвоенный Министерством юстиции, на любом огнестрельном оружии, не получив предварительно письменного разрешения департамента на такое изменение, переделку или удаление, виновно в совершении  тяжкого преступления.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "611": {
+        "id": "611",
+        "charge": "Хранение запрещенного холодного оружия",
+        "definition": "Любое лицо, которое сознательно хранит и/или носит запрещенное холодное оружие, виновно в совершении проступка.\n\n(( Список оружия представлен в законе Control of Deadly Weapons ))",
         "type": "M",
         "class": {
             "A": false,
@@ -6451,268 +6828,13 @@
             "min": 0
         },
         "maxtime": {
-            "days": 2,
+            "days": 0,
             "hours": 0,
             "min": 0
         },
         "points": {
             "A": 0,
             "B": 0,
-            "C": 0
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 400000
-        },
-        "extra": "N/A"
-    },
-    "702": {
-        "id": "702",
-        "charge": "Possession of a Prohibited Firearm",
-        "definition": "Any person who possesses any firearm that is prohibited by state or federal law, or contains illegal modifications in its setup, or firearms banned from entry, sale, or transportation into the State of San Andreas, without appropriate permit.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 6,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 400000
-        },
-        "extra": "N/A"
-    },
-    "703": {
-        "id": "703",
-        "charge": "Aggravated Firearm Possession",
-        "definition": "Any person who carries on their person, or in their vehicle, place of business or another private facility more than five Unlicensed Firearms or more than three Prohibited Firearms as provided in P.C 701 and P.C 702.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 10,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 5
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 500000
-        },
-        "extra": "N/A"
-    },
-    "704": {
-        "id": "704",
-        "charge": "Possession of an Explosive or Incendiary Device",
-        "definition": "Any person who possesses any explosive or incendiary device that is prohibited by state or federal law or explosive or incendiary devices banned from entry, sale, or transportation into the State of San Andreas, without appropriate permit.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 4,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 8,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": 2,
-            "cost": 500000
-        },
-        "extra": "N/A"
-    },
-    "705": {
-        "id": "705",
-        "charge": "Unlicensed Sale of Firearm or Explosives",
-        "definition": "Any person who illegally sells, gives, or buys firearms, explosives, incendiary devices, or any other similar device or improvised devices of any type without proper permits or permissions.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": false,
-            "C": true
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 2,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 5,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 0,
-            "C": 4
-        },
-        "fine": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "impound": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "suspension": {
-            "1": 0,
-            "2": 0,
-            "3": 0
-        },
-        "bail": {
-            "auto": true,
-            "cost": 800000
-        },
-        "extra": "N/A"
-    },
-    "706": {
-        "id": "706",
-        "charge": "Brandishing a Deadly Weapon",
-        "definition": "Any person who, except in self-defense, in the presence of another person, draws, holds, points, or exhibits a deadly weapon or instrument, firearm or object similar, whether loaded or unloaded in a rude, angry, or threatening manner as to reasonably induce fear in the mind of another.",
-        "type": "F",
-        "class": {
-            "A": false,
-            "B": true,
-            "C": false
-        },
-        "offence": {
-            "1": true,
-            "2": false,
-            "3": false
-        },
-        "time": {
-            "days": 1,
-            "hours": 0,
-            "min": 0
-        },
-        "maxtime": {
-            "days": 5,
-            "hours": 0,
-            "min": 0
-        },
-        "points": {
-            "A": 0,
-            "B": 3,
             "C": 0
         },
         "fine": {
@@ -6735,5 +6857,171 @@
             "cost": 0
         },
         "extra": "N/A"
+    },
+    "612": {
+        "id": "612",
+        "charge": "Скрытое ношение холодного оружия",
+        "definition": "Любое лицо, которое носит при себе холодное оружие, а именно нож, кинжал или нож с выдвижным лезвием, зафиксированном в выдвинутом положении скрыто, что означает иным образом кроме как в ножнах, причем открыто подвешенных на уровне талии таким образом, чтобы ничто не закрывало собой обзор на ножны и ручку или рукоятку ножа, виновно в совершении проступка.\n\n(( Список оружия представлен в законе Control of Deadly Weapons ))",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "613": {
+        "id": "613",
+        "charge": "Демонстрация холодного или смертоносного оружия с целью запугивания",
+        "definition": "Любое лицо, которое, за исключением случаев самообороны, в присутствии другого лица достает и/или демонстрирует любое смертоносное оружие, кроме огнестрельного, в грубой, злобной или угрожающей манере, виновно в совершении проступка.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": true,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 1,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "614": {
+        "id": "614",
+        "charge": "Контрабанда оружия и боеприпасов",
+        "definition": "Любое (ые) лицо (а), которое пытается или преуспевает в транспортировке, экспорте, хранении или сокрытии нелицензионного оружия у себя или в собственности, на рабочем месте или на другом частном объекте без надлежащих соответствующих разрешений в количестве, за исключением транспортировки, хранении или сокрытии легального и зарегистрированного оружия, владельцем которого оно (они) является.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "A": {
+                "days": 3,
+                "hours": 0,
+                "min": 0
+            },
+            "B": {
+                "days": 5,
+                "hours": 0,
+                "min": 0
+            },
+            "C": {
+                "days": 2,
+                "hours": 0,
+                "min": 0
+            },
+            "D": {
+                "days": 1,
+                "hours": 0,
+                "min": 0
+            }
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "A": 15500,
+            "B": 25750,
+            "C": 13000,
+            "D": 10000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "Категория А - любое ручное огнестрельное оружие (все пистолеты) в количестве от 3 единиц и более.\nКатегория В - оружие средней или крупно габаритной в количестве от 2 единиц. Включает в себя (но не ограничивается): карабины, дробовики, винтовки. Это также относится к любому оружию, имеющему автоматический темп стрельбы.\nКатегория C - боеприпасы любого калибра в количестве от 40 единиц включительно.\nКатегория D - модификации к оружию в количестве от 7 единиц."
     }
 }
